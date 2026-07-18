@@ -341,7 +341,7 @@
 				</OKResult>
 			</li>
 <li>
-    <Display>太一遗藏-测试功法</Display>
+    <Display>太一遗藏</Display>
    <OKResult>
     <![CDATA[ 
     story:RemoveBindItem(); 
