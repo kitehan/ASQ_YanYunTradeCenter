@@ -341,13 +341,11 @@
 				</OKResult>
 			</li>
 <li>
-    <Display>太一遗藏</Display>
+    <Display>太一遗藏-测试功法</Display>
     <OKResult>
         <![CDATA[ 
         story:RemoveBindItem(); 
-        me:AddMsg(XT("[NAME]从裂缝中抓出了一个古怪的东西、一门功法的传承和一个石匣。随后裂缝就关闭了。")); 
-        me:DropAwardItem("Item_GodPractice_MiJuan_5", 1, nil, false); 
-        me:DropAwardItem("Item_taiyimifabox", 1, nil, false); 
+        me:AddMsg(XT("[NAME]从裂缝中获得了一门功法的传承。"));
         me:UnLockGong("Gong_yuanshen_None"); 
         ]]>
     </OKResult>
