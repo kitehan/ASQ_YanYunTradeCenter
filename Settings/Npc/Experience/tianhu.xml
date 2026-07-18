@@ -1,0 +1,232 @@
+﻿<Experiences><List>	
+	
+	<Experience Name="Experiences16" Group="G3">
+		<DisplayName>天胡</DisplayName>
+		<Desc>诶~天胡！怎么说？我全都要！</Desc>
+		<Point>5</Point>
+		<RaceKind>Human</RaceKind>
+		<NpcSlot>2</NpcSlot>
+		<ModifierDef>
+			<BaseFive>3,3,3,3,1</BaseFive>
+			<Skills>
+				<li Name="SocialContact" Level="5"/>
+				<li Name="Fabao" Level="5"/>
+				<li Name="FightSkill" Level="5"/>
+				<li Name="Barrier" Level="5"/>
+				<li Name="Medicine" Level="5"/>
+				<li Name="DanQi" Level="10"/>
+				<li Name="Manual" Level="5"/>
+			</Skills>
+		</ModifierDef>
+		<Items>
+			<li Name= "Item_E_FaBaoBox" Count="1"/>
+			<li Name= "Item_E_DanBox" Count="1"/>
+			<li Name= "Item_E_MiJiBox" Count="1"/>
+			<li Name= "Item_E_FuBox" Count="1"/>
+			<li Name= "Item_E_FaBaoBox" Count="1"/>
+			<li Name= "Item_E_DanBox" Count="1"/>
+			<li Name= "Item_E_MiJiBox" Count="1"/>
+			<li Name= "Item_E_FuBox" Count="1"/>
+			<li Name= "Item_Cake" Count="80"/>
+			<li Name= "Item_Jerky" Count="80"/>
+			<li Name= "Item_Dan_NoHunger" Count="20"/>
+			<li Name= "Item_RoughWoodBlock" Count="200"/>
+			<li Name= "Item_IronBlock" Count="200"/>
+			<li Name= "Item_MarbleBlock" Count="200"/>
+			<li Name= "Item_SilverBlock" Count="40"/>
+			<li Name= "Item_CopperBlock" Count="40"/>
+			<li Name= "Item_Healroot" Count="40"/>
+			<li Name= "Item_Mint" Count="40"/>
+			<li Name= "Item_MagicHerb" Count="100"/>
+			<li Name= "Item_RedGinseng" Count="10"/>
+			<li Name= "Item_PurpleGanodermaLucidum" Count="10"/>
+			<li Name= "Item_Jade" Count="20"/>
+			<li Name= "Item_HardWood" Count="20"/>
+			<li Name= "Item_CopperRock" Count="20"/>
+			<li Name= "Item_SilverRock" Count="20"/>
+			<li Name= "Item_DarksteelRock" Count="10"/>
+			<li Name= "Item_JadeEssence" Count="1"/>
+			<li Name= "Item_Fruit" Count="18"/>
+			<li Name= "Item_LingWater" Count="5"/>
+			<li Name= "Item_Ginkgo" Count="76"/>
+			<li Name= "Item_SnakeGallbladder" Count="7"/>
+			<li Name= "Item_BearGallbladder" Count="5"/>
+			<li Name= "Item_BearMeat" Count="96"/>
+			<li Name= "Item_SnakeMeat" Count="66"/>
+			<li Name= "Item_EarthEssence" Count="1"/>
+			<li Name= "Item_BasePracticeDrug" Count="1"/>
+			<li Name= "Item_Dan_Happiness" Count="7"/>
+			<li Name= "Item_Dan_ExtremeLofty" Count="1" IsJingGuai="1"/>
+			<li Name= "Item_Healroot" Count="40"/>
+			<li Name= "Item_Mint" Count="40"/>
+			<li Name= "Item_MagicHerb" Count="100"/>
+			<li Name= "Item_RedGinseng" Count="10"/>
+			<li Name= "Item_PurpleGanodermaLucidum" Count="10"/>
+			<li Name= "Item_Jade" Count="20"/>
+			<li Name= "Item_HardWood" Count="20"/>
+			<li Name= "Item_CopperRock" Count="20"/>
+			<li Name= "Item_SilverRock" Count="20"/>
+			<li Name= "Item_DarksteelRock" Count="10"/>
+			<li Name= "Item_JadeEssence" Count="1"/>
+			<li Name= "Item_RoughWoodBlock" Count="200"/>
+			<li Name= "Item_IronBlock" Count="200"/>
+			<li Name= "Item_MarbleBlock" Count="200"/>
+			<li Name= "Item_SilverBlock" Count="40"/>
+			<li Name= "Item_CopperBlock" Count="40"/>
+			<li Name= "Item_Dan_LunHui1" Count="1"/>
+			<li Name= "Item_LunHui_Box1" Count="1"/>
+			<li Name= "Item_LunHui_Box2" Count="1"/>
+			<li Name= "Item_LunHui_QiYuanZhiXin" Quality="1"/>
+			<li Name= "Item_LunHui_DongFangHeShenZhen" Count="1"/>
+		</Items>		
+		<Esoterics>
+			<li>Esoterica_LunHui1</li>
+			<li>Esoterica_LunHui2</li>
+			<li>Esoterica_LunHui3</li>
+			<li>Esoterica_LunHui4</li>
+			<li>Esoterica_LunHui5</li>
+			<li>SpellEsoterica_5</li>
+			<li>DanFang_1</li>
+		</Esoterics>
+		<Gongs>
+			<li>Gong_1_Shui</li>
+			<li>Gong_2_Mu</li>
+			<li>Gong_3_Jin</li>
+			<li>Gong_5_Tu</li>
+			<li>Gong_6_Huo</li>
+			<li>Gong_7_Huo</li>
+			<li>Gong_8_Jin</li>
+			<li>Gong_9_Mu</li>
+			<li>Gong_10_Huo</li>
+			<li>Gong_11_Tu</li>
+			<li>Body_Gong_1</li>
+		</Gongs>
+		<Equips>
+			<li Name= "Item_FormalClothes" Stuff="Item_RabbitLeather" Quality="1"/>
+			<li Name= "Item_FormalTrousers" Stuff="Item_RabbitLeather" Quality="1"/>
+			<li Name= "Item_Dice" Stuff="Item_DarksteelRock" Quality="1"/>
+			<li Name= "Item_PerfumeBag" Stuff="Item_RabbitLeather" Quality="1"/>
+			<li Name= "Item_Bracelet" Stuff="Item_Jade" Quality="1"/>
+			<li Name= "Item_WeaponSword" Stuff="Item_DarksteelRock" Quality="1"/>
+			<li Name= "Item_LunHui_PerfectWorld" Quality="1"/>
+			<li Name= "SP_Sword1" Stuff="Item_Other_BuZhiMing" Quality="1"/>
+			<li Name= "SP_Sword3" Stuff="Item_Other_BuZhiMing" Quality="1"/>
+			<li Name= "SP_Sword4" Stuff="Item_Other_BuZhiMing" Quality="1"/>
+		</Equips>		
+	</Experience>
+		
+	<Experience Name="YaoGuai_Experiences18"  Group="G3">
+		<DisplayName>天胡</DisplayName>
+		<Desc>天胡怎么说</Desc>
+		<Point>2</Point>
+		<RaceKind>YaoGuai</RaceKind>
+		<NpcSlot>2</NpcSlot>
+		<ModifierDef>
+			<BaseFive>3,3,3,3,1</BaseFive>
+			<Skills>
+				<li Name="SocialContact" Level="5"/>
+				<li Name="Fabao" Level="5"/>
+				<li Name="FightSkill" Level="5"/>
+				<li Name="Barrier" Level="5"/>
+				<li Name="Medicine" Level="5"/>
+				<li Name="DanQi" Level="10"/>
+				<li Name="Manual" Level="5"/>
+			</Skills>
+		</ModifierDef>
+		<Items>
+			<li Name= "Item_E_FaBaoBox" Count="1"/>
+			<li Name= "Item_E_DanBox" Count="1"/>
+			<li Name= "Item_E_MiJiBox" Count="1"/>
+			<li Name= "Item_E_FuBox" Count="1"/>
+			<li Name= "Item_E_FaBaoBox" Count="1"/>
+			<li Name= "Item_E_DanBox" Count="1"/>
+			<li Name= "Item_E_MiJiBox" Count="1"/>
+			<li Name= "Item_E_FuBox" Count="1"/>
+			<li Name= "Item_Cake" Count="80"/>
+			<li Name= "Item_Jerky" Count="80"/>
+			<li Name= "Item_Dan_NoHunger" Count="20"/>
+			<li Name= "Item_RoughWoodBlock" Count="200"/>
+			<li Name= "Item_IronBlock" Count="200"/>
+			<li Name= "Item_MarbleBlock" Count="200"/>
+			<li Name= "Item_SilverBlock" Count="40"/>
+			<li Name= "Item_CopperBlock" Count="40"/>
+			<li Name= "Item_Healroot" Count="40"/>
+			<li Name= "Item_Mint" Count="40"/>
+			<li Name= "Item_MagicHerb" Count="100"/>
+			<li Name= "Item_RedGinseng" Count="10"/>
+			<li Name= "Item_PurpleGanodermaLucidum" Count="10"/>
+			<li Name= "Item_Jade" Count="20"/>
+			<li Name= "Item_HardWood" Count="20"/>
+			<li Name= "Item_CopperRock" Count="20"/>
+			<li Name= "Item_SilverRock" Count="20"/>
+			<li Name= "Item_DarksteelRock" Count="10"/>
+			<li Name= "Item_JadeEssence" Count="1"/>
+			<li Name= "Item_Fruit" Count="18"/>
+			<li Name= "Item_LingWater" Count="5"/>
+			<li Name= "Item_Ginkgo" Count="76"/>
+			<li Name= "Item_SnakeGallbladder" Count="7"/>
+			<li Name= "Item_BearGallbladder" Count="5"/>
+			<li Name= "Item_BearMeat" Count="96"/>
+			<li Name= "Item_SnakeMeat" Count="66"/>
+			<li Name= "Item_EarthEssence" Count="1"/>
+			<li Name= "Item_BasePracticeDrug" Count="1"/>
+			<li Name= "Item_Dan_Happiness" Count="7"/>
+			<li Name= "Item_Dan_ExtremeLofty" Count="1" IsJingGuai="1"/>
+			<li Name= "Item_Healroot" Count="40"/>
+			<li Name= "Item_Mint" Count="40"/>
+			<li Name= "Item_MagicHerb" Count="100"/>
+			<li Name= "Item_RedGinseng" Count="10"/>
+			<li Name= "Item_PurpleGanodermaLucidum" Count="10"/>
+			<li Name= "Item_Jade" Count="20"/>
+			<li Name= "Item_HardWood" Count="20"/>
+			<li Name= "Item_CopperRock" Count="20"/>
+			<li Name= "Item_SilverRock" Count="20"/>
+			<li Name= "Item_DarksteelRock" Count="10"/>
+			<li Name= "Item_JadeEssence" Count="1"/>
+			<li Name= "Item_RoughWoodBlock" Count="200"/>
+			<li Name= "Item_IronBlock" Count="200"/>
+			<li Name= "Item_MarbleBlock" Count="200"/>
+			<li Name= "Item_SilverBlock" Count="40"/>
+			<li Name= "Item_CopperBlock" Count="40"/>
+			<li Name= "Item_Dan_LunHui1" Count="1"/>
+			<li Name= "Item_LunHui_Box1" Count="1"/>
+			<li Name= "Item_LunHui_Box2" Count="1"/>
+			<li Name= "Item_LunHui_QiYuanZhiXin" Quality="1"/>
+			<li Name= "Item_LunHui_DongFangHeShenZhen" Count="1"/>
+		</Items>		
+		<Esoterics>
+			<li>Esoterica_LunHui1</li>
+			<li>Esoterica_LunHui2</li>
+			<li>Esoterica_LunHui3</li>
+			<li>Esoterica_LunHui4</li>
+			<li>SpellEsoterica_5</li>
+			<li>DanFang_1</li>
+		</Esoterics>
+		<Gongs>
+			<li>Gong_1_Shui</li>
+			<li>Gong_2_Mu</li>
+			<li>Gong_3_Jin</li>
+			<li>Gong_5_Tu</li>
+			<li>Gong_6_Huo</li>
+			<li>Gong_7_Huo</li>
+			<li>Gong_8_Jin</li>
+			<li>Gong_9_Mu</li>
+			<li>Gong_10_Huo</li>
+			<li>Gong_11_Tu</li>
+			<li>Body_Gong_1</li>
+		</Gongs>
+		<Equips>
+			<li Name= "Item_FormalClothes" Stuff="Item_RabbitLeather" Quality="1"/>
+			<li Name= "Item_FormalTrousers" Stuff="Item_RabbitLeather" Quality="1"/>
+			<li Name= "Item_Dice" Stuff="Item_DarksteelRock" Quality="1"/>
+			<li Name= "Item_PerfumeBag" Stuff="Item_RabbitLeather" Quality="1"/>
+			<li Name= "Item_Bracelet" Stuff="Item_Jade" Quality="1"/>
+			<li Name= "Item_WeaponSword" Stuff="Item_DarksteelRock" Quality="1"/>
+			<li Name= "Item_LunHui_PerfectWorld" Quality="1"/>
+			<li Name= "SP_Sword1" Stuff="Item_Other_BuZhiMing" Quality="1"/>
+			<li Name= "SP_Sword3" Stuff="Item_Other_BuZhiMing" Quality="1"/>
+			<li Name= "SP_Sword4" Stuff="Item_Other_BuZhiMing" Quality="1"/>
+		</Equips>		
+	</Experience>
+	
+</List></Experiences>

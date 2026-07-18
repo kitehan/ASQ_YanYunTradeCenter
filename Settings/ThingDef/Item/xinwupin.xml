@@ -1,0 +1,939 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_piaolv0" Parent="MaterialBase">
+		<ThingName>凡品商票</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexPath>res\Sprs\object_zhengfatianxia\object_PTfu01</TexPath>	
+		<Desc>面值100灵石，可用于向商会订购普通的装备、食物、药物和秘籍，也可用于兑换90灵石。</Desc>	
+		<Beauty>25</Beauty>	
+		<Rate>2</Rate>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		<Item Lable="Treasure">
+			<NotFengshuiItem>1</NotFengshuiItem>
+			<NotRandom>1</NotRandom>
+			<FabaoSuffix>卷</FabaoSuffix>
+			<BeMade>
+				<WorkToMake>1</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "110"/>
+				</CostItems>
+			</BeMade> 			
+		</Item>
+		<StoryBnts>
+			<li Name="使用" Desc="向商会订购" Story="Story_piaolv0" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_piaolv1" Parent="Item_piaolv0">
+		<ThingName>珍品商票</ThingName>
+		<Desc>面值300灵石，可用于向商会订购珍贵的装备、药物、珀、灵丹和宠物，也可用于直接兑换1个天龙砂或60个镇物符纸或270灵石。</Desc>
+		<Rate>4</Rate>
+		<Item Lable="Treasure">
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "330"/>
+				</CostItems>
+			</BeMade> 			
+		</Item>
+		<StoryBnts>
+			<li Name="使用" Desc="向商会订购" Story="Story_piaolv1" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_piaolv2" Parent="Item_piaolv0">
+		<ThingName>灵品商票</ThingName>
+		<Desc>面值1500灵石，可用于向商会订购罕见的毛皮、凶兽材料、药物、灵丹和秘闻，也可用于直接兑换1把36重天劫洗练的12阶灵晶道剑法宝或1350灵石。</Desc>
+		<Rate>6</Rate>
+		<Item Lable="Treasure">
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1650"/>
+				</CostItems>
+			</BeMade> 			
+		</Item>
+		<StoryBnts>
+			<li Name="使用" Desc="向商会订购" Story="Story_piaolv2" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_piaolv3" Parent="Item_piaolv0">
+		<ThingName>超品商票</ThingName>
+		<Desc>面值2000灵石，可用于向商会订购稀有的材料、药物、灵丹和奥秘，也可用于直接兑换1个猫妖之珀或1800灵石。</Desc>	
+		<Rate>8</Rate>
+		<Item Lable="Treasure">
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "2200"/>
+				</CostItems>
+			</BeMade> 			
+		</Item>
+		<StoryBnts>
+			<li Name="使用" Desc="向商会订购" Story="Story_piaolv3" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_piaolv4" Parent="Item_piaolv0">
+		<ThingName>绝品商票</ThingName>
+		<Desc>面值5000灵石，可用于向商会订购非常稀有的凶兽材料、药物、灵丹和古修镇物，也可用于直接兑换1个千棱神玉或者4500灵石。</Desc>	
+		<Rate>10</Rate>
+		<Item Lable="Treasure">
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "5500"/>
+				</CostItems>
+			</BeMade> 			
+		</Item>
+		<StoryBnts>
+			<li Name="使用" Desc="向商会订购" Story="Story_piaolv4" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_piaolv5" Parent="Item_piaolv0">
+		<ThingName>圣品商票</ThingName>
+		<Desc>面值10000灵石，可用于向商会订购极其稀有的凶兽材料、药物和灵丹，也可用于直接兑换1个元灵之珀（返还2500灵石）或者9000灵石。</Desc>	
+		<Rate>12</Rate>
+		<Item Lable="Treasure">
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "11000"/>
+				</CostItems>
+			</BeMade> 			
+		</Item>
+		<StoryBnts>
+			<li Name="使用" Desc="向商会订购" Story="Story_piaolv5" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_huishoudazong" Parent="MaterialBase">
+		<ThingName>回收票据</ThingName>
+		<TexPath>res\Sprs\object\object_xinfeng</TexPath>	
+		<Desc>烟云商会从票据持有人处回收指定种类的原材料或加工品共100件的凭证，回收无法撤销。可持此票据在烟云商会兑换90灵石或者请商会立刻邀请1位行商前来完成更大宗的交易。</Desc>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		<Item Lable="Treasure">
+			<NotFengshuiItem>1</NotFengshuiItem>
+			<NotRandom>1</NotRandom>
+			<FabaoSuffix>卷</FabaoSuffix>
+			<BeMade>
+				<StuffCategories>
+					<Stuff name = "Wood"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "Rock"/>
+					<Stuff name = "RockBlock"/>
+					<Stuff name = "Metal"/>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "Cloth"/>
+					<Stuff name = "Food"/>
+				</StuffCategories>
+				<CostStuffCount>100</CostStuffCount>
+			</BeMade> 			
+		</Item>
+		<StoryBnts>
+			<li Name="使用" Desc="向商会兑换" Story="Story_huishou3" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_SuperPartItem1" Parent="Item_SuperPartItem">
+		<ThingName>秘体奥秘</ThingName>
+		<Desc>记载所有体修秘体的肢体碎片，只有炼体者可以参悟，且只能被参悟一次，之后便会化为飞灰。</Desc>
+		<Item Lable="Treasure">	
+			<NotFengshuiItem>1</NotFengshuiItem>
+			<NotRandom>1</NotRandom>
+		</Item>
+		<StoryBnts>
+			<li Name="参悟" Desc="参悟奥义" Story="Story_SuperPartItem2" Cost="1" Icon="res/Sprs/ui/icon_hand" Appoint="2" Ani="chuangong1"/>
+		</StoryBnts>
+	</ThingDef>	
+
+	<ThingDef Type="Item" Name="Item_cuilianItem1" Parent="Item_SuperPartItem1">
+		<ThingName>淬炼奥秘</ThingName>
+		<Desc>记载所有体修淬炼之法的肢体碎片，只有炼体者可以参悟，且只能被参悟一次，之后便会化为飞灰。</Desc>
+		<StoryBnts>
+			<li Name="参悟" Desc="参悟奥义" Story="Story_cuilianItem2" Cost="1" Icon="res/Sprs/ui/icon_hand" Appoint="2" Ani="chuangong1"/>
+		</StoryBnts>
+	</ThingDef>	
+
+	<ThingDef Type="Item" Name="Item_GodPractice_sbg" Parent="Item_GodPractice_MiJuan_6">
+		<ThingName>圣宝阁残卷</ThingName>
+		<Desc>记载所有特殊圣宝阁建造方法的残卷，只有神道修行者可以领悟，且只能被参悟一次，之后便会化为飞灰。</Desc>
+		<Item Lable="Treasure">	
+			<NotFengshuiItem>1</NotFengshuiItem>
+			<NotRandom>1</NotRandom>
+		</Item>
+		<StoryBnts>
+			<li Name="查阅" Desc="查阅密卷" Story="Story_Item_GodPractice_sbg1" Appoint="2" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_SpellPaperLv5" Parent="Item_SpellPaper">
+		<ThingName>造化符</ThingName>
+		<Desc>秘法制作的纸张，用神念将纸上的朱砂拖曳出特定的符号即可形成符咒。</Desc>
+		<Rate>15</Rate>
+		<Item Lable="SpellPaper" Kind="Practice">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_Cinnabar" count = "2"/>
+					<Item name = "Item_Water" count = "2"/>
+					<Item name = "Item_Wood" count = "1"/>
+					<Item name = "Item_SoulCrystalYou" count = "7"/>
+					<Item name = "Item_SoulCrystalLing" count = "3"/>
+					<Item name = "Item_God_JieHui" count = "10"/>
+					<Item name = "Item_ZaoHuaYuZi" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<ProduceMode>
+			<ProduceBuildings>
+				<li>
+					<Building>CalligraphyTable</Building>
+					<Count>1</Count>
+				</li>
+			</ProduceBuildings>
+		</ProduceMode>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_jiaozishihe" Parent="MaterialBase">
+		<ThingName>饺子食盒</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexPath>res\Sprs\object\object_jiaozi01</TexPath>	
+		<Desc>未拆封的食盒，里面装着刚刚出锅的100份饺子</Desc>	
+		<Beauty>1</Beauty>	
+		<Rate>1</Rate>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		<Item Lable="Other">
+			<NotFengshuiItem>1</NotFengshuiItem>
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<StuffCategories>
+					<Stuff name = "Meat"/>
+				</StuffCategories>
+				<CostStuffCount>100</CostStuffCount>
+				<CostItems>
+					<Item name = "Item_Water" count = "100"/>
+					<Item name = "Item_Flour" count = "100"/>
+				</CostItems>
+			</BeMade> 			
+		</Item>
+		<ProduceMode>
+			<ProduceBuildings>
+				<li>
+					<Building>Kitchen</Building>
+					<Count>1</Count>
+				</li>
+			</ProduceBuildings>
+		</ProduceMode>
+		<StoryBnts>
+			<li Name="打开" Desc="把食盒打开" Story="Story_jiaozishihe" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_wuhuangdanshihe" Parent="MaterialBase">
+		<ThingName>无黄蛋食盒</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexPath>res/Sprs/object/object_food003</TexPath>	
+		<Desc>未拆封的食盒，里面装着刚刚出锅的5份无黄蛋</Desc>	
+		<Beauty>1</Beauty>	
+		<Rate>1</Rate>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		<Item Lable="Other">
+			<NotFengshuiItem>1</NotFengshuiItem>
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<CostItems>
+					<Item name = "Item_ChickenEgg" count = "5"/>
+					<Item name = "Item_BasePracticeDrug" count = "1"/>
+				</CostItems>
+			</BeMade> 			
+		</Item>
+		<ProduceMode>
+			<ProduceBuildings>
+				<li>
+					<Building>Kitchen</Building>
+					<Count>1</Count>
+				</li>
+			</ProduceBuildings>
+		</ProduceMode>
+		<StoryBnts>
+			<li Name="打开" Desc="把食盒打开" Story="Story_wuhuangdanshihe" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_gongjuhe" Parent="MaterialBase">
+		<ThingName>高级工具盒</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexPath>res\Sprs\object\object_shixiazi01</TexPath>	
+		<Desc>未拆封的工具盒，里面装有糊泥刀、缝纫护腕和磨面之遮各1份。</Desc>	
+		<Beauty>1</Beauty>	
+		<Rate>1</Rate>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		<Item Lable="Other">
+			<NotFengshuiItem>1</NotFengshuiItem>
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>400</WorkToMake>
+				<CostItems>
+					<Item name = "Item_IronBlock" count = "15"/>
+					<Item name = "Item_RoughWoodBlock" count = "15"/>
+					<Item name = "Item_WhiteCloth" count = "15"/>
+				</CostItems>
+			</BeMade> 			
+		</Item>
+		<StoryBnts>
+			<li Name="打开" Desc="把工具盒打开" Story="Story_gongjuhe" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="qianlongdan" Parent="DrugBase">
+		<ThingName>潜龙丹</ThingName>
+		<Rate>1</Rate>
+		<Desc>提升所有技能999级（不无视上限）、提升潜行值100000、提升潜力值50000、提升法宝炼制速度10000%。</Desc>
+		<TexPath>res/Sprs/object/object_DAdanyao07</TexPath>
+		<Color>FFFFFFFF</Color>
+		<Item Lable="Drug" Kind="Consumable">
+			<NotFengshuiItem>1</NotFengshuiItem>
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<CostStuffCount>1</CostStuffCount>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade>
+			<Elixir>
+				<Fesistance>0</Fesistance>
+				<Modifier>qianlongdanmod</Modifier>
+			</Elixir> 
+		</Item>
+		<CostStuffCount>1</CostStuffCount>
+		<ProduceMode>
+			<ProduceBuildings>
+				<li>
+					<Building>MedicineTable</Building>
+					<Count>100</Count>
+				</li>
+			</ProduceBuildings>
+		</ProduceMode>
+    </ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Wonder_wanjieLingJing" Parent="Item_Wonder_QianKunLingJing">
+		<ThingName>万界灵晶</ThingName>
+		<Desc>一块奇异的晶体，是太一门前辈根据异界裂缝的原理创造出来的奇物。其中蕴含有一股玄妙的空间之力，可以使携带者立刻穿梭至任意地点。此物似乎可以与异界产生联系，与其互动后或许会有意想不到的事情发生。</Desc>
+		<Item Lable="Other">
+			<NotFengshuiItem>1</NotFengshuiItem>
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingCrystal" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_wanjielingjing</ToolModifier>
+			</Equip> 			
+		</Item>
+		<ProduceMode>
+			<ProduceBuildings>
+				<li>
+					<Building>CalligraphyTable</Building>
+					<Count>1</Count>
+				</li>
+			</ProduceBuildings>
+		</ProduceMode>
+		<StoryBnts>
+			<li Name="互动" Desc="与万界灵晶互动" Story="Story_wanjielingjing" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_taiyimifabox" Parent="MaterialBase">
+		<ThingName>太一秘法匣</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexPath>res\Sprs\object\object_shixiazi01</TexPath>
+		<Desc>自太一遗迹中镇塔内寻得，上面写有太一门密文，说明内里装有几本太一门的秘法。</Desc>	
+		<HideInOtherWorld>1</HideInOtherWorld>
+		<Beauty>1</Beauty>	
+		<Rate>9</Rate>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		<IllustratedHandLabel>WOther</IllustratedHandLabel>
+		<Item Lable="Other">	
+			<NotRandom>1</NotRandom>
+			<FabaoSuffix>匣</FabaoSuffix>				
+		</Item>
+		<StoryBnts>
+			<li Name="打开" Desc="打开太一秘法匣。" Story="Story_taiyimifabox" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_jinghuamix" Parent="MaterialBase">
+		<ThingName>混元精华</ThingName>
+		<TexPath>res\Sprs\object\object_lingmuxuejie01</TexPath>
+		<TexScale>0.5</TexScale>	
+		<Desc>以烟云商会秘法自各种宝物中萃取而出的精华，蕴含了炼体者所需的一切精华。</Desc>
+		<Rate>12</Rate>
+		<Beauty>25</Beauty>
+		<Item Lable="Other">
+			<NotFengshuiItem>1</NotFengshuiItem>
+			<NotRandom>1</NotRandom>
+			<DevourDatas>
+				<li Name="Item_BodyPractice_ShengMingLv1" Count="16" Rate="0.25"/>
+				<li Name="Item_BodyPractice_Jin" Count="16" Rate="0.25"/>
+				<li Name="Item_BodyPractice_Mu" Count="16" Rate="0.25"/>
+				<li Name="Item_BodyPractice_Shui" Count="16" Rate="0.25"/>
+				<li Name="Item_BodyPractice_Huo" Count="16" Rate="0.25"/>
+				<li Name="Item_BodyPractice_Tu" Count="16" Rate="0.25"/>
+				<li Name="Item_BodyPractice_ShengMingLv2" Count="9" Rate="0.25"/>
+				<li Name="Item_BodyPractice_SiWang" Count="9" Rate="0.25"/>
+				<li Name="Item_BodyPractice_WuHui" Count="9" Rate="0.25"/>
+				<li Name="Item_BodyPractice_Chun" Count="9" Rate="0.25"/>
+				<li Name="Item_BodyPractice_Xia" Count="9" Rate="0.25"/>
+				<li Name="Item_BodyPractice_Qiu" Count="9" Rate="0.25"/>
+				<li Name="Item_BodyPractice_Dong" Count="9" Rate="0.25"/>
+				<li Name="Item_BodyPractice_FengShuiLing" Count="9" Rate="0.25"/>
+				<li Name="Item_BodyPractice_FengShuiSha" Count="9" Rate="0.25"/>
+				<li Name="Item_BodyPractice_DaYaoYuanJing" Count="9" Rate="0.25"/>
+				<li Name="Item_BodyPractice_GuShouJingXue" Count="9" Rate="0.25"/>
+				<li Name="Item_BodyPractice_GuShouGuFen" Count="9" Rate="0.25"/>
+				<li Name="Item_BodyPractice_ShengMingLv3" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_WuXing" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_XianDaoJingHua" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_EXJin" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_EXMu" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_EXShui" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_EXHuo" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_EXTu" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_TaiYang" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_TaiYin" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_YongYe" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_JiaoLongYuanJing" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_XiongFengYuanJing" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_ZhuLongYuanJing" Count="4" Rate="0.25"/>
+				<li Name="Item_BodyPractice_JiuYang" Count="1" Rate="0.25"/>
+				<li Name="Item_BodyPractice_XuanYue" Count="1" Rate="0.25"/>
+				<li Name="Item_BodyPractice_TaiXu" Count="1" Rate="0.25"/>
+				<li Name="Item_BodyPractice_XuanTian" Count="1" Rate="0.25"/>
+				<li Name="Item_BodyPractice_JieMie" Count="1" Rate="0.25"/>
+			</DevourDatas> 	
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_sphouyi1" Parent="ToolBase">
+		<ThingName>镇岳极光衣</ThingName>
+		<MaxStack>1</MaxStack>
+		<Beauty>3</Beauty>
+		<Rate>9</Rate>
+		<ElementKind>Tu</ElementKind>
+		<TexPath>res/Sprs/object/object_mianyi01</TexPath>
+		<Desc>仿制于玄一道的奇物“镇岳极光衫”，使携带者学习速度+33.54%、最低舒适温度+25.66%。</Desc>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		<IllustratedHandLabel>Curiosity</IllustratedHandLabel>
+		<Item Kind="Equipment">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>400</WorkToMake>
+				<Quality>100</Quality>
+				<CostItems>
+					<Item name = "Item_RabbitLeather" count = "80"/>
+				</CostItems>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_sphouyi1</ToolModifier>
+			</Equip>
+		</Item>
+		<ProduceMode>
+			<ProduceBuildings>
+				<li>
+					<Building>TailorTable</Building>
+					<Count>1</Count>
+				</li>
+			</ProduceBuildings>
+		</ProduceMode>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_sphouku1" Parent="ToolBase">
+		<ThingName>苍龙荡魔裤</ThingName>
+		<MaxStack>1</MaxStack>
+		<Beauty>4</Beauty>
+		<Rate>9</Rate>
+		<ElementKind>Mu</ElementKind>
+		<TexPath>res/Sprs/object/object_mianku01</TexPath>
+		<Desc>仿制于玄一道的奇物“苍龙荡魔御”，使携带者种植速度+29.05%、基础工作速度+30.20%。</Desc>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		<IllustratedHandLabel>Curiosity</IllustratedHandLabel>
+		<Item Kind="Equipment">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>400</WorkToMake>
+				<Quality>100</Quality>
+				<CostItems>
+					<Item name = "Item_RedCloth" count = "80"/>
+				</CostItems>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_sphouku1</ToolModifier>
+			</Equip>
+		</Item>
+		<ProduceMode>
+			<ProduceBuildings>
+				<li>
+					<Building>TailorTable</Building>
+					<Count>1</Count>
+				</li>
+			</ProduceBuildings>
+		</ProduceMode>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_sphouyi2" Parent="Item_sphouyi1">
+		<ThingName>万里霓光衣</ThingName>
+		<Beauty>3</Beauty>
+		<Rate>11</Rate>
+		<ElementKind>Tu</ElementKind>
+		<Desc>仿制于玄一道的奇物“万里霓光衫”，使携带者缝纫速度+33.86%、采掘速度+35.17%。</Desc>
+		<Item Kind="Equipment">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_BearLeather" count = "80"/>
+				</CostItems>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_sphouyi2</ToolModifier>
+			</Equip>
+		</Item>
+		<ProduceMode>
+			<ProduceBuildings>
+				<li>
+					<Building>TailorTable</Building>
+					<Count>1</Count>
+				</li>
+			</ProduceBuildings>
+		</ProduceMode>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_sphouku2" Parent="Item_sphouku1">
+		<ThingName>己土屠神裤</ThingName>
+		<Beauty>2</Beauty>
+		<Rate>10</Rate>
+		<ElementKind>Tu</ElementKind>
+		<Desc>仿制于玄一道的奇物“己土屠神衣”，使携带者疼痛极限+22.42%、移动速度+35.37%。</Desc>
+		<Item Kind="Equipment">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_WolfLeather" count = "80"/>
+				</CostItems>
+			</BeMade>
+			<Equip>
+				<ToolModifier>Modifier_Item_sphouku2</ToolModifier>
+			</Equip>
+		</Item>
+		<ProduceMode>
+			<ProduceBuildings>
+				<li>
+					<Building>TailorTable</Building>
+					<Count>1</Count>
+				</li>
+			</ProduceBuildings>
+		</ProduceMode>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_BossZhuLong_LongYucore" Parent="MaterialBase">
+		<ThingName>无极灵脉核心</ThingName>
+		<MaxStack>1</MaxStack>
+		<TexPath>res\Sprs\object\object_benyuanwu01</TexPath>	
+		<Desc>以烟云商会秘法将5个混沌的龙玉和44个阴阳之结晶组成的聚灵阵（聚灵值4004.89，无属性）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出6504.89灵气。</Desc>	
+		<Beauty>25</Beauty>	
+		<Rate>12</Rate>
+		<ElementKind>None</ElementKind>
+		<Flammability>
+			<Flammability>0</Flammability>
+		</Flammability>
+		<IllustratedHandLabel>Curiosity</IllustratedHandLabel>
+		<Item Lable="Treasure">	
+			<NotFengshuiItem>1</NotFengshuiItem>
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>500</WorkToMake>
+				<CostItems>
+					<Item name = "Item_BossZhuLong_Eye" count = "44"/>
+					<Item name = "Item_BossZhuLong_LongYu" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<StoryBnts>
+			<li Name="分解" Desc="将灵脉核心分解成原材料" Story="Story_fenjiehexin" Cost="1" Icon="res/Sprs/ui/icon_hand"/>
+		</StoryBnts>
+		<Ling>
+			<LingSource>6504.89</LingSource>  <!--聚灵阵聚灵值+手动灵气爆发2500，下同-->
+		</Ling>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="FengShuiItem_Ta2core" Parent="Item_BossZhuLong_LongYucore">
+		<ThingName>乾极灵脉核心</ThingName>
+		<Desc>以烟云商会秘法将5个混沌的龙玉和108个万灵塔组成的聚灵阵（聚灵值17200，无属性）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出19700灵气。</Desc>	
+		<Item Lable="Treasure">	
+			<BeMade>
+				<WorkToMake>700</WorkToMake>
+				<CostItems>
+					<Item name = "FengShuiItem_Ta2" count = "108"/>
+					<Item name = "Item_BossZhuLong_LongYu" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>19700</LingSource>
+		</Ling>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_HundredRefinecore" Parent="Item_BossZhuLong_LongYucore">
+		<ThingName>九转灵脉核心</ThingName>
+		<TexPath>res\Sprs\object\object_benyuanjin01</TexPath>	
+		<Desc>以烟云商会秘法将5个九转金丹、8个星髓和16个灵木组成的聚灵阵（聚灵值929.59，金属性136）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出3429.59灵气。</Desc>	
+		<Rate>10</Rate>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<WorkToMake>400</WorkToMake>
+				<CostItems>
+				<Item name = "Item_LingWood" count = "16"/>
+				<Item name = "Item_StarEssence" count = "8"/>
+				<Item name = "Item_Dan_HundredRefine" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>3429.59</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>136</Value>
+			<Radius>1</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_jincore" Parent="Item_Dan_HundredRefinecore">
+		<ThingName>金行灵脉核心</ThingName>
+		<TexPath>res\Sprs\object\object_benyuanjin01</TexPath>	
+		<Desc>以烟云商会秘法将5个九转金丹、12个洁白的大鳞和12个漆黑的大鳞组成的聚灵阵（聚灵值1236.67，金属性40）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出3736.67灵气。</Desc>	
+		<Rate>12</Rate>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<CostItems>
+				<Item name = "Item_BossZhuLong_BaiLin" count = "12"/>
+				<Item name = "Item_BossZhuLong_HeiLin" count = "12"/>
+				<Item name = "Item_Dan_HundredRefine" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>3736.67</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>40</Value>
+			<Radius>1</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_LingWoodBlockcore" Parent="Item_BossZhuLong_LongYucore">
+		<ThingName>木基灵脉核心</ThingName>
+		<TexPath>res\Sprs\object\object_benyuanmu01</TexPath>	
+		<Desc>以烟云商会秘法将29个灵木料组成的聚灵阵（聚灵值406.72，木属性59.23）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出2907.72灵气。</Desc>	
+		<Rate>2</Rate>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<WorkToMake>400</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingWoodBlock" count = "29"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>2907.72</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>59.23</Value>
+			<Radius>1</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_MuEssencecore" Parent="Item_LingWoodBlockcore">
+		<ThingName>木灵灵脉核心</ThingName>
+		<Desc>以烟云商会秘法将5个木枯藤、8个梧桐神木和16个灵木组成的聚灵阵（聚灵值937.29，木属性124）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出3437.29灵气。</Desc>
+		<Rate>8</Rate>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingWood" count = "16"/>
+					<Item name = "Item_ParasolWood" count = "8"/>
+					<Item name = "Item_MuEssence" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>3437.29</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>124</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_mucore" Parent="Item_LingWoodBlockcore">
+		<ThingName>木行灵脉核心</ThingName>
+		<Desc>以烟云商会秘法将5个木枯藤、8个梧桐神木和16个蛟龙的玄鳞组成的聚灵阵（聚灵值1171.62，木属性124）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出3671.62灵气。</Desc>
+		<Rate>12</Rate>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_BossLong_Lin" count = "16"/>
+					<Item name = "Item_ParasolWood" count = "8"/>
+					<Item name = "Item_MuEssence" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>3671.62</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>124</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_ShuiEssencecore" Parent="Item_BossZhuLong_LongYucore">
+		<ThingName>水灵灵脉核心</ThingName>
+		<TexPath>res\Sprs\object\object_benyuanshui01</TexPath>	
+		<Desc>以烟云商会秘法将5个五色金莲、8个玄牝珠和16个灵木组成的聚灵阵（聚灵值938.57，水属性153.76）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出3438.57灵气。</Desc>	
+		<Rate>8</Rate>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<WorkToMake>400</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingWood" count = "16"/>
+					<Item name = "Item_SoulPearl" count = "8"/>
+					<Item name = "Item_ShuiEssence" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>3438.57</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>153.76</Value>
+			<Radius>1</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_shuicore" Parent="Item_ShuiEssencecore">
+		<ThingName>水行灵脉核心</ThingName>
+		<Desc>以烟云商会秘法将5个五色金莲、4个玄牝珠和20个蛟龙的玄鳞组成的聚灵阵（聚灵值1179.89，水属性154.96）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出3679.89灵气。</Desc>	
+		<Rate>12</Rate>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_BossLong_Lin" count = "20"/>
+					<Item name = "Item_SoulPearl" count = "4"/>
+					<Item name = "Item_ShuiEssence" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>3679.89</LingSource>
+		</Ling>
+		<Element>
+			<Value>154.96</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_shuiexcore" Parent="Item_ShuiEssencecore">
+		<ThingName>水极灵脉核心</ThingName>
+		<Desc>以烟云商会秘法将5个蛟龙的逆鳞和44个蛟龙的崩天筋组成的聚灵阵（聚灵值4004.89，水属性149.15）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出6504.89灵气。</Desc>	
+		<Rate>12</Rate>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_BossLong_Jing" count = "44"/>
+					<Item name = "Item_BossLong_NiLin" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>6504.89</LingSource>
+		</Ling>
+		<Element>
+			<Value>149.15</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_HuoEssencecore" Parent="Item_BossZhuLong_LongYucore">
+		<ThingName>火灵灵脉核心</ThingName>
+		<TexPath>res\Sprs\object\object_benyuanhuo01</TexPath>	
+		<Desc>以烟云商会秘法将5个朱果、8个火精锭和16个灵木组成的聚灵阵（聚灵值888.76，火属性142.16）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出3388.76灵气。</Desc>	
+		<Rate>8</Rate>
+		<ElementKind>Huo</ElementKind>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<WorkToMake>400</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingWood" count = "16"/>
+					<Item name = "Item_CopperBlock1" count = "8"/>
+					<Item name = "Item_HuoEssence" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>3388.76</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>142.16</Value>
+			<Radius>1</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_huocore" Parent="Item_HuoEssencecore">
+		<ThingName>火行灵脉核心</ThingName>
+		<Desc>以烟云商会秘法将5个朱果和24个凶凤的刚羽组成的聚灵阵（聚灵值1161.67，火属性149.15）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出3661.67灵气。</Desc>	
+		<Rate>12</Rate>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_BossFeng_GangYu" count = "24"/>
+					<Item name = "Item_HuoEssence" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>3661.67</LingSource>
+		</Ling>
+		<Element>
+			<Value>149.15</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_huoexcore" Parent="Item_HuoEssencecore">
+		<ThingName>火极灵脉核心</ThingName>
+		<Desc>以烟云商会秘法将5个凶凤的真焱玉和44个凶凤的蔽天羽组成的聚灵阵（聚灵值4004.89，火属性149.15）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出6504.89灵气。</Desc>	
+		<Rate>12</Rate>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_BossFeng_WeiYu" count = "44"/>
+					<Item name = "Item_BossFeng_HongYu" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>6504.89</LingSource>
+		</Ling>
+		<Element>
+			<Value>149.15</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_ExtremeLoftycore" Parent="Item_BossZhuLong_LongYucore">
+		<ThingName>造化灵脉核心</ThingName>
+		<TexPath>res\Sprs\object\object_benyuantu01</TexPath>	
+		<Desc>以烟云商会秘法将5个造化神丹、8个天龙砂和16个灵木组成的聚灵阵（聚灵值1392，土属性50.15）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出3892灵气。</Desc>	
+		<Rate>10</Rate>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<WorkToMake>400</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingWood" count = "16"/>
+					<Item name = "Item_DragonShit" count = "8"/>
+					<Item name = "Item_Dan_ExtremeLofty" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>3892</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>50.15</Value>
+			<Radius>1</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_tucore" Parent="Item_Dan_ExtremeLoftycore">
+		<ThingName>土行灵脉核心</ThingName>
+		<Desc>以烟云商会秘法将5个造化神丹、8个天龙砂和16个凶凤的刚羽组成的聚灵阵（聚灵值1626.33，土属性50.15）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出4126.33灵气。</Desc>	
+		<Rate>12</Rate>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_BossFeng_GangYu" count = "16"/>
+					<Item name = "Item_DragonShit" count = "8"/>
+					<Item name = "Item_Dan_ExtremeLofty" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>4126.33</LingSource>
+		</Ling>
+		<Element>
+			<Value>50.15</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_tuexcore" Parent="Item_Dan_ExtremeLoftycore">
+		<ThingName>坤极灵脉核心</ThingName>
+		<Desc>以烟云商会秘法将5个混沌的龙玉、8个天龙砂和36个阴阳之结晶组成的聚灵阵（聚灵值4085.91，土属性10.15）融合成一个灵脉核心，能源源不断进行灵气爆发，持续产出6585.91灵气。</Desc>	
+		<Rate>12</Rate>
+		<Item Lable="Treasure">	
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_BossZhuLong_Eye" count = "36"/>
+					<Item name = "Item_DragonShit" count = "8"/>
+					<Item name = "Item_BossZhuLong_LongYu" count = "5"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+		<Ling>
+			<LingSource>6585.91</LingSource>
+		</Ling>
+		<Element>
+			<Value>10.15</Value>
+		</Element>
+	</ThingDef>
+	
+</List></ThingDefs>

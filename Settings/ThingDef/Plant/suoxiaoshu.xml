@@ -1,0 +1,118 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Plant" Name="TreePine_Big" Parent="TreePine">
+		<ThingName>巨松树</ThingName>
+		<MaxHitPoints>1500</MaxHitPoints>
+		<Beauty>12</Beauty>
+		<Rate>6</Rate>	
+		<TexPath>res/Sprs/scene_TemperateForest_plant/scene_songshu001</TexPath>
+		<Desc>年份极高的松树。</Desc>
+		<Plant>
+			<DeciduousLeafInAutumn>0</DeciduousLeafInAutumn>
+			<VisualSizeMin>0.4</VisualSizeMin>
+			<VisualSizeMax>0.9</VisualSizeMax>
+			
+			<RipedTexPath></RipedTexPath>
+			<HarvestedTexPath>res/Sprs/scene_TemperateForest_plant/scene_songshu003</HarvestedTexPath>
+			<LeaflessTexPath>res/Sprs/scene_TemperateForest_plant/scene_songshu004</LeaflessTexPath>   
+			<GlowTexPath>res/Sprs/scene_sp/scene_songshu_sp</GlowTexPath>
+			<SnowedTexPath></SnowedTexPath>	
+			<WitherAble>0</WitherAble>
+			<SnowRenderData>
+				<x>3.5</x>
+				<y>4.2</y>
+				<z>2</z>
+			</SnowRenderData>
+		</Plant>
+		<Harvest>
+			<HarvestTag>
+				<li>Cut</li>
+			</HarvestTag> 
+			<DropItems>
+				<li>
+					<ThingDef>Item_Wood</ThingDef>
+					<Count>12</Count>
+				</li>
+			</DropItems>  
+		</Harvest>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>5</Value>         
+			<Radius>3</Radius>
+			<Failing>0.9</Failing>
+			<FailRadius>2</FailRadius>
+		</Element>
+	</ThingDef>	
+	
+	<ThingDef Type="Plant" Name="TreeGinkgo_Big" Parent="TreeGinkgo">
+		<ThingName>巨银杏</ThingName>
+		<TexPath>res/special/scene_juyinxing001</TexPath>
+		<Desc>上了年份的老银杏，巨大而充满灵气。</Desc>
+		<Beauty>36</Beauty>
+		<Rate>9</Rate>	
+		<MaxHitPoints>2100</MaxHitPoints>
+		<Plant>
+			<RipedTexPath></RipedTexPath>
+			<HarvestedTexPath>res/special/scene_juyinxing003</HarvestedTexPath>
+			<LeaflessTexPath>res/special/scene_juyinxing004</LeaflessTexPath> 
+			<GlowTexPath></GlowTexPath>	 
+			<SnowedTexPath></SnowedTexPath>
+			<VisualSizeMin>0.3</VisualSizeMin>
+			<VisualSizeMax>0.4</VisualSizeMax>
+			<LifespanFraction>20000</LifespanFraction>
+			<GrowDays>180</GrowDays>
+			<HarvestDays>15</HarvestDays>
+			
+			<LingMin>3</LingMin>
+			<LingMax>500</LingMax>
+			
+			<SnowRenderData>
+				<x>2.16</x>
+				<y>3.95</y>
+				<z>2</z>
+			</SnowRenderData>
+		</Plant>
+		
+		<Harvest>  
+			<HarvestWork>120</HarvestWork> 
+			<DropWork>650</DropWork>   	
+			
+			<HarvestTag>
+				<li>Cut</li>
+				<li>StandCollection</li>
+			</HarvestTag> 
+			
+			<HarvestItems>
+				<li>
+					<ThingDef>Item_Ginkgo</ThingDef>
+					<Count>80</Count>
+				</li>
+			</HarvestItems>
+			
+			<DropItems>
+				<li>
+					<ThingDef>Item_Wood</ThingDef>
+					<Count>64</Count>
+				</li>
+			</DropItems> 
+		</Harvest>
+		<Ling>
+			<AddionLing>45</AddionLing>
+			<AddionRadius>5</AddionRadius>
+			<AddionFailing>0.9</AddionFailing>
+			<AddionFailRadius>2</AddionFailRadius>
+			
+			<Attenuation>0.05</Attenuation>
+			<Absorption>0.4</Absorption>
+			<Accommodate>40</Accommodate>
+		</Ling>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>12</Value>         
+			<Radius>5</Radius>
+			<Failing>0.9</Failing>
+			<FailRadius>2</FailRadius>
+		</Element>
+	</ThingDef>
+	
+</List></ThingDefs>

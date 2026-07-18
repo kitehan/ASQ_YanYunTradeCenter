@@ -1,0 +1,57 @@
+<BPQuenchingMethods><List>
+
+	<Def Name="BPQuenchingMethods_new1"><!--淬炼之法-->
+		<DisplayName>烟云淬体术</DisplayName>
+		<Desc>烟云商会大能独创的基础淬体之法。每次运转此法会对目标部位进行9次淬炼，每次淬炼必定会出现10条罕见的进化方向。</Desc> 
+		<RollCount>9</RollCount> 
+		<CycleScaleAddtion>8</CycleScaleAddtion>
+		<LabelMoreCount>9</LabelMoreCount>
+		<CostScaleAddtion>8</CostScaleAddtion>
+		<LabelCacheWeightAddtion>
+			<li Name="Cache2" Value="99999999"/>
+		</LabelCacheWeightAddtion>
+		<SpecialFlag></SpecialFlag>
+	</Def>
+
+	<Def Name="BPQuenchingMethods_new2"><!--淬炼之法-->
+		<DisplayName>烟云淬体术-四象</DisplayName>
+		<Desc>烟云商会大能独创的高级淬体之法。每次运转此法会对目标部位进行4次淬炼，每次淬炼必定会出现10条超凡的进化方向。</Desc> 
+		<RollCount>4</RollCount> 
+		<CycleScaleAddtion>3</CycleScaleAddtion>
+		<LabelMoreCount>9</LabelMoreCount>
+		<CostScaleAddtion>3</CostScaleAddtion>
+		<LabelCacheWeightAddtion>
+			<li Name="Cache3" Value="99999999"/>
+		</LabelCacheWeightAddtion>
+		<SpecialFlag></SpecialFlag>
+	</Def>
+
+	<Def Name="BPQuenchingMethods_new3"><!--淬炼之法-->
+		<DisplayName>烟云淬体术-太极</DisplayName>
+		<Desc>烟云商会大能独创的顶级淬体之法。每次运转此法会对目标部位进行1次淬炼，每次淬炼必定会出现10条史诗的进化方向。</Desc> 
+		<RollCount>1</RollCount> 
+		<CycleScaleAddtion>0</CycleScaleAddtion>
+		<LabelMoreCount>9</LabelMoreCount>
+		<CostScaleAddtion>0</CostScaleAddtion>
+		<LabelCacheWeightAddtion>
+			<li Name="Cache4" Value="99999999"/>
+		</LabelCacheWeightAddtion>
+		<SpecialFlag></SpecialFlag>
+	</Def>
+	
+	<Def Name="BPQuenchingMethods_new4"><!--淬炼之法-->
+		<DisplayName>烟云淬体术-混元</DisplayName>
+		<Desc>烟云商会大能独创的顶级淬体之法。每次运转此法会对目标部位进行1次淬炼，每次淬炼必定会出现独特的进化方向。</Desc> 
+		<RollCount>1</RollCount> 
+		<CycleScaleAddtion>0</CycleScaleAddtion>
+		<LabelMoreCount>9</LabelMoreCount>
+		<CostScaleAddtion>0</CostScaleAddtion>
+		<LabelCacheWeightAddtion>
+			<li Name="Cache5" Value="99999999"/>
+			<li Name="Cache6" Value="99999999"/>
+			<li Name="Cache7" Value="99999999"/>
+		</LabelCacheWeightAddtion>
+		<SpecialFlag></SpecialFlag>
+	</Def>
+	
+</List></BPQuenchingMethods>

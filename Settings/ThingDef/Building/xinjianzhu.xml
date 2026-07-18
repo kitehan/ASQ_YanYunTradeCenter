@@ -1,0 +1,741 @@
+<ThingDefs><List>
+
+	<ThingDef Type="Building" Name="Shangpiaoduihuandian"  Parent="ProductionBase">	
+		<ThingName>烟云商会八卦阵</ThingName>
+		<Desc>不需要什么制作材料，只是在地上画出一个八卦阵即可与烟云商会的客服联络或是制作灵脉核心。烟云商会客服提供订购商品、回收商品和邀请行商的服务。请注意，每次灵石与物品的交换都需支付额外10%的灵石作为手续费。</Desc>
+		<TexPath>res\Sprs\building_WuDangDLC\building_xbaguaputuan01_F</TexPath>
+		<BlockMissile>0</BlockMissile>
+		<SelectAble>1</SelectAble>
+		<CastShadow>0</CastShadow>
+		<Beauty>100</Beauty>
+		<BlockLight>0</BlockLight>
+		<MaxHitPoints>1</MaxHitPoints>
+		<TexScale>1.15</TexScale>
+		<ColliderKind>ThrowOver</ColliderKind>
+		<VisionRadius>0</VisionRadius>
+		<Flammability>
+			<Flammability>0</Flammability>
+			<FlameSpawnThingDef></FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>500</BurningPoint>
+		</Flammability>
+		<Collider>
+			<Data>
+			[1,1,1],
+			[1,7,1],
+			</Data>
+			<OffsetGroup>
+				<li><x>0</x><y>0.5</y></li>
+				<li><x>0</x><y>0.5</y></li>
+				<li><x>0</x><y>0.5</y></li>
+				<li><x>0</x><y>0.5</y></li>
+			</OffsetGroup>
+			<WorkOffset>
+				<li Index="0"  X="0.01" Y="0.38" Z="0.01" Ang="181"/>
+			</WorkOffset>
+		</Collider>
+		<IllustratedHandLabel>Dele</IllustratedHandLabel>
+		<NotDoTongLing>1</NotDoTongLing>
+		<Building>
+			<NotRandom>1</NotRandom>
+			<ShowFree>0</ShowFree>
+			<NoFengshui>1</NoFengshui>
+			<NoFight>1</NoFight>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<CanMakeRoom>0</CanMakeRoom>
+			<WorkAnimation>produce</WorkAnimation>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<Quality>0</Quality>
+			</BeMade>
+			<ProducePriority>1</ProducePriority>
+			<ProduceKind>Handwork</ProduceKind>
+			<Produces>
+				<Produce>
+					<ThingDef>Item_piaolv0</ThingDef>
+					<Display>凡品商票</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_piaolv1</ThingDef>
+					<Display>珍品商票</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_piaolv2</ThingDef>
+					<Display>灵品商票</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_piaolv3</ThingDef>
+					<Display>超品商票</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_piaolv4</ThingDef>
+					<Display>绝品商票</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_piaolv5</ThingDef>
+					<Display>圣品商票</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_huishoudazong</ThingDef>
+					<Display>回收票据</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_BossZhuLong_LongYucore</ThingDef>
+					<Display>无极灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>FengShuiItem_Ta2core</ThingDef>
+					<Display>乾极灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_Dan_HundredRefinecore</ThingDef>
+					<Display>九转灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_jincore</ThingDef>
+					<Display>金行灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_LingWoodBlockcore</ThingDef>
+					<Display>木基灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_MuEssencecore</ThingDef>
+					<Display>木灵灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_mucore</ThingDef>
+					<Display>木行灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_ShuiEssencecore</ThingDef>
+					<Display>水灵灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_shuicore</ThingDef>
+					<Display>水行灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_shuiexcore</ThingDef>
+					<Display>水极灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_HuoEssencecore</ThingDef>
+					<Display>火灵灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_huocore</ThingDef>
+					<Display>火行灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_huoexcore</ThingDef>
+					<Display>火极灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_Dan_ExtremeLoftycore</ThingDef>
+					<Display>造化灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_tucore</ThingDef>
+					<Display>土行灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_tuexcore</ThingDef>
+					<Display>坤极灵脉核心</Display>
+					<Count>1</Count>
+				</Produce>
+			</Produces>
+		</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="HandWorkTable" Parent="ProductionBase">	
+		<ThingName>手工桌</ThingName>	
+		<Frags>		
+			<li Frag="HearTrain" />
+		</Frags>
+		<Desc>进行简单的手工用品制造的工作台。</Desc>
+		<TexScale>0.7</TexScale>
+		<TexPath>res/Sprs/buildingnew/building_ManufacturingStation1a</TexPath>
+		<BlockLight>1</BlockLight>
+		<SelectAble>1</SelectAble>	
+		<CastShadow>1</CastShadow>
+		<Beauty>5</Beauty>
+		<Collider>
+			<!--(0Empty 1Base)+(2EmptyCenter 4EmptyWorkspace)-->
+			<Data>
+				[3,1],
+				[4,0],
+			</Data>
+			<OffsetGroup>
+				<li><x>-0.5</x><y>0.75</y></li>
+				<li><x>0.35</x><y>0.81</y></li>
+				<li><x>0.5</x><y>0.75</y></li>
+				<li><x>-0.3</x><y>-0.04</y></li>
+			</OffsetGroup>
+			<WorkOffset>
+				<li Index="0" X="0.55" Y="0.76" Ang="1" Dir="Down"/>
+				<li Index="0" X="0.67" Y="-0.6" Ang="1" Dir="Left"/>
+				<li Index="0" X="-0.46" Y="-0.4" Ang="1" Dir="Up"/>
+				<li Index="0" X="-0.5" Y="0.4" Ang="1" Dir="Right"/>
+			</WorkOffset>
+		</Collider>
+		<Building>
+			<BePackage>1</BePackage>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<CanMakeRoom>0</CanMakeRoom>
+			<WorkAnimation>produce</WorkAnimation>
+			<WorkTexPath>res/Sprs/buildingnew/building_ManufacturingStation1b</WorkTexPath>
+			<Orientation>F,B,R</Orientation>
+			<BeMade>
+				<WorkToMake>150</WorkToMake>
+				<Quality>0</Quality>
+				<StuffCategories>
+					<Stuff name = "MetalBlock"/>
+					<Stuff name = "WoodBlock"/>
+					<Stuff name = "RockBlock"/>
+				</StuffCategories>
+				<CostStuffCount>8</CostStuffCount>
+			</BeMade>
+			<SnowRenderData>
+				<x>3.13</x>
+				<y>3.9</y>
+				<z>1</z>
+			</SnowRenderData>
+			<ProducePriority>1</ProducePriority>
+			<ProduceKind>Handwork</ProduceKind>
+			<Produces>
+	<!--		<Produce>
+					<ThingDef>Item_WoodPike</ThingDef>
+					<Display>木矛</Display>
+					<Count>1</Count>
+				</Produce>-->
+				<Produce>
+					<ThingDef>Item_WeaponWoodBow</ThingDef>
+					<Display>木弓</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_Other_PuppetTest</ThingDef>
+					<Display>傀儡</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_Umbrella</ThingDef>
+					<Display>伞</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_Dice</ThingDef>
+					<Display>骰子</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_SmallBell</ThingDef>
+					<Display>铃铛</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_Bracelet</ThingDef>
+					<Display>手镯</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_Handkerchief</ThingDef>
+					<Display>手帕</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_PerfumeBag</ThingDef>
+					<Display>香囊</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_SysAxe</ThingDef>
+					<Display>斧</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_SysPickaxe</ThingDef>
+					<Display>镐</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_SysSickle</ThingDef>
+					<Display>农具</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_SysAcupuncture</ThingDef>
+					<Display>针灸</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_XuanTianShangDiPai</ThingDef>
+					<Display>玄天上帝圣牌</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_gongjuhe</ThingDef>
+					<Display>高级工具盒</Display>
+					<Count>1</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_WoodLeftover</ThingDef>
+					<Display>木角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_HardWoodLeftover</ThingDef>
+					<Display>金丝木角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_ParasolWoodLeftover</ThingDef>
+					<Display>梧桐木角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_LingWoodLeftover</ThingDef>
+					<Display>灵木角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_BrownRockLeftover</ThingDef>
+					<Display>棕石角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_GrayRockLeftover</ThingDef>
+					<Display>灰石角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_MarbleLeftover</ThingDef>
+					<Display>大理石角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_JadeLeftover</ThingDef>
+					<Display>玉石角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_SkyStoneLeftover</ThingDef>
+					<Display>天柱石角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_LingStoneLeftover</ThingDef>
+					<Display>灵石角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_LingCrystalLeftover</ThingDef>
+					<Display>灵晶角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_IronRockLeftover</ThingDef>
+					<Display>铁矿角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_CopperRockLeftover</ThingDef>
+					<Display>火铜角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_SilverRockLeftover</ThingDef>
+					<Display>寒晶角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_DarksteelRockLeftover</ThingDef>
+					<Display>玄铁角料</Display>
+					<Count>100</Count>
+				</Produce>
+				<Produce>
+					<ThingDef>Item_StarEssenceLeftover</ThingDef>
+					<Display>星髓角料</Display>
+					<Count>100</Count>
+				</Produce>
+			</Produces>
+		</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FillsuperLingSoil" Parent="FillBase">	
+		<Color>006550E5</Color>
+		<ThingName>超灵土改造</ThingName>
+		<Desc>快速的将一块区域改造成灵土，缩短了大量的时间。</Desc>
+		<Building>
+			<FillTarrain>superLingSoil</FillTarrain>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<CostItems>
+				<Item name="Item_LingCrystal" count="1"/>
+			</CostItems>
+			</BeMade>
+		</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FillsuperLingWater" Parent="FillBase">	
+		<Color>2EE2E8FF</Color>
+		<ThingName>超灵水改造</ThingName>
+		<Desc>将一块区域改造成灵水，缩短了大量的时间。</Desc>
+		<Building>
+			<FillTarrain>superLingWater</FillTarrain>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<CostItems>
+				<Item name="Item_LingCrystal" count="1"/>
+				<Item name="Item_Water" count="100"/>
+			</CostItems>
+			</BeMade>
+		</Building>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="Building_wujizhen" Parent="Building_MagicCushion">
+		<ThingName>无极灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个混沌的龙玉和44个阴阳之结晶融合的灵脉核心（聚灵值4004.89，无属性）熔炼到法座之中，能源源不断进行灵气爆发，持续产出6564.89灵气。</Desc> 
+		<ColliderKind>Across</ColliderKind>
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_BossZhuLong_LongYucore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>6564.89</LingSource>  <!--聚灵阵聚灵值+手动灵气爆发2500+法座聚灵值60，下同-->	
+			<AddionLing>0</AddionLing>
+		</Ling>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="Building_qianjizhen" Parent="Building_wujizhen">
+		<ThingName>乾极灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个混沌的龙玉和108个万灵塔融合的灵脉核心（聚灵值17200，无属性）熔炼到法座之中，能源源不断进行灵气爆发，持续产出19760灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "FengShuiItem_Ta2core" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>19760</LingSource>
+		</Ling>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Building_jiuzhuanjindanzhen" Parent="Building_wujizhen">
+		<ThingName>金丹灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个九转金丹、8个星髓和16个灵木融合的灵脉核心（聚灵值929.59，金属性136）熔炼到法座之中，能源源不断进行灵气爆发，持续产出3489.59灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_Dan_HundredRefinecore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>3489.59</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>136</Value>
+			<Radius>1</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Building_jincorezhen" Parent="Building_jiuzhuanjindanzhen">
+		<ThingName>金行灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个九转金丹、12个洁白的大鳞和12个漆黑的大鳞融合的灵脉核心（聚灵值1236.67，金属性40）熔炼到法座之中，能源源不断进行灵气爆发，持续产出3796.67灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_jincore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>3796.67</LingSource>
+		</Ling>
+		<Element>
+			<Value>40</Value>
+		</Element>
+	</ThingDef>
+
+	<ThingDef Type="Building" Name="Building_lingmuliaozhen" Parent="Building_wujizhen">
+		<ThingName>木基灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将29个灵木料融合的灵脉核心（聚灵值406.72，木属性59.23）熔炼到法座之中，能源源不断进行灵气爆发，持续产出2966.72灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_LingWoodBlockcore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>2966.72</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>59.23</Value>
+			<Radius>1</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Building_mukutengzhen" Parent="Building_lingmuliaozhen">
+		<ThingName>木灵灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个木枯藤、8个梧桐神木和16个灵木融合的灵脉核心（聚灵值937.29，木属性124）熔炼到法座之中，能源源不断进行灵气爆发，持续产出3497.29灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_MuEssencecore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>3497.29</LingSource>
+		</Ling>
+		<Element>
+			<Value>124</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Building_mucorezhen" Parent="Building_lingmuliaozhen">
+		<ThingName>木行灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个木枯藤、8个梧桐神木和16个蛟龙的玄鳞融合的灵脉核心（聚灵值1171.62，木属性124）熔炼到法座之中，能源源不断进行灵气爆发，持续产出3731.62灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_mucore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>3731.62</LingSource>
+		</Ling>
+		<Element>
+			<Value>124</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Building_wusejinlianzhen" Parent="Building_wujizhen">
+		<ThingName>水灵灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个五色金莲、8个玄牝珠和16个灵木融合的灵脉核心（聚灵值938.57，水属性153.76）熔炼到法座之中，能源源不断进行灵气爆发，持续产出3498.37灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_ShuiEssencecore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>3498.37</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>153.76</Value>
+			<Radius>1</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Building_shuicorezhen" Parent="Building_wusejinlianzhen">
+		<ThingName>水行灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个五色金莲、4个玄牝珠和20个蛟龙的玄鳞融合的灵脉核心（聚灵值1179.89，水属性154.96）熔炼到法座之中，能源源不断进行灵气爆发，持续产出3739.89灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_shuicore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>3739.89</LingSource>
+		</Ling>
+		<Element>
+			<Value>153.76</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Building_shuiexcorezhen" Parent="Building_wusejinlianzhen">
+		<ThingName>水极灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个蛟龙的逆鳞和44个蛟龙的崩天筋融合的灵脉核心（聚灵值4004.89，水属性149.15）熔炼到法座之中，能源源不断进行灵气爆发，持续产出6564.89灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_shuiexcore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>6564.89</LingSource>
+		</Ling>
+		<Element>
+			<Value>149.15</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Building_zhuguozhen" Parent="Building_wujizhen">
+		<ThingName>火灵灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个朱果、8个火精锭和16个灵木融合的灵脉核心（聚灵值888.76，火属性142.16）熔炼到法座之中，能源源不断进行灵气爆发，持续产出3448.76灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_HuoEssencecore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>3448.76</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>142.16</Value>
+			<Radius>1</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Building_huocorezhen" Parent="Building_zhuguozhen">
+		<ThingName>火行灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个朱果和24个凶凤的刚羽融合的灵脉核心（聚灵值1161.67，火属性149.15）熔炼到法座之中，能源源不断进行灵气爆发，持续产出3721.67灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_huocore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>3721.67</LingSource>
+		</Ling>
+		<Element>
+			<Value>149.15</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Building_huoexcorezhen" Parent="Building_zhuguozhen">
+		<ThingName>火极灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个凶凤的真焱玉和44个凶凤的蔽天羽融合的灵脉核心（聚灵值4004.89，火属性149.15）熔炼到法座之中，能源源不断进行灵气爆发，持续产出6564.89灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_huoexcore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>6564.89</LingSource>
+		</Ling>
+		<Element>
+			<Value>149.15</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Building_zaohuashendanzhen" Parent="Building_wujizhen">
+		<ThingName>造化灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个造化神丹、8个天龙砂和16个灵木融合的灵脉核心（聚灵值1392，土属性50.15）熔炼到法座之中，能源源不断进行灵气爆发，持续产出3952灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_Dan_ExtremeLoftycore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>3952</LingSource>
+		</Ling>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>50.15</Value>
+			<Radius>1</Radius>
+			<Failing>1</Failing>
+			<FailRadius>1</FailRadius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Building_tucorezhen" Parent="Building_zaohuashendanzhen">
+		<ThingName>土行灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个造化神丹、8个天龙砂和16个凶凤的刚羽融合的灵脉核心（聚灵值1626.33，土属性50.15）熔炼到法座之中，能源源不断进行灵气爆发，持续产出4186.33灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_tucore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>4186.33</LingSource>
+		</Ling>
+		<Element>
+			<Value>50.15</Value>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="Building_kunjizhen" Parent="Building_zaohuashendanzhen">
+		<ThingName>坤极灵脉法座</ThingName>	
+		<Desc>以烟云商会秘法将5个混沌的龙玉、8个天龙砂和36个阴阳之结晶融合的灵脉核心（聚灵值4085.91，土属性10.15）熔炼到法座之中，能源源不断进行灵气爆发，持续产出6645.91灵气。</Desc> 
+		<Building>
+			<BeMade>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "25"/>
+					<Item name = "Item_tuexcore" count = "1" noscale = "1"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+		<Ling>
+			<LingSource>6645.91</LingSource>
+		</Ling>
+		<Element>
+			<Value>10.15</Value>
+		</Element>
+	</ThingDef>
+	
+</List></ThingDefs>

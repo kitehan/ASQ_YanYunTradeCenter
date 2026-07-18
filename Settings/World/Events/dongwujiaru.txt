@@ -1,0 +1,19 @@
+ID	Kind	Name	WorldFlag	Weight	UnLockLevel	PopTip	Desc	ClassName	sParam1	fParam1	sParam2	fParam2	sParam3	fParam3	sParam4	fParam4	FromFightMap	MsgShowType	RuntimeFlag
+ID	类型 空：被动触发	名字	对WorldFlag的要求		解锁等级	事件发生时弹出默认提示 0不开 1开启 	介绍	类名	(天气:s天气类型)  (进攻:进攻富有等级) (妖兽:妖兽种族) (宝物:物品类型lable 权重:ID|ID.)  (角色:数据名字) (秘闻:随机秘闻ID|ID) (路人：行为描述)(动物进攻：种族)（精怪来临：精怪类型）	（天气：1为100%，通灵概率）（进攻:强度等级加成(默认等级+系数)）（ 妖兽:持续时间） （宝物:最小品阶 权重:值）(角色:0心情 1modifier) (拜师：数量)(路人：数量)(动物进攻：最少个数)	(路人：附加标记)（精怪来临：具体名称  用|隔开。必须要有种族）	（宝物:最大品阶）  （进攻:持续时间秒） （权重:持续时间(天)） （角色：0玩家角色 1所有角色）(路人：类型 1普通2拜师3暂住 10内门强住)(动物进攻：最大个数)					会从战斗地图带回来	消息类型，用于消息管理	
+202101	Join	动物加入		1	0	0	    一只野猪来到你的门派，它似乎很喜欢这里。	EventAnimalJoin	Boar									
+202102	Join	动物加入		1	0	0	    一只熊来到你的门派，它似乎很喜欢这里。	EventAnimalJoin	Bear									
+202103	Join	动物加入		1	0	0	    一只蛇来到你的门派，它似乎很喜欢这里。	EventAnimalJoin	Snake									
+202104	Join	动物加入		1	0	0	    一只狼来到你的门派，它似乎很喜欢这里。	EventAnimalJoin	Wolf									
+202105	Join	动物加入		1	0	0	    一只老虎来到你的门派，它似乎很喜欢这里。	EventAnimalJoin	Tiger									
+202106	EnemyLv2	引诱兔妖				1	    一只元神期兔妖被烟云商会大能引诱到附近，它充满敌意。	EventYaoShouAttack	JYRabbit	19	TongYong_DropList	1		2147483647				t7
+202107	EnemyLv2	引诱狼妖				1	    一只元神期狼妖被烟云商会大能引诱到附近，它充满敌意。	EventYaoShouAttack	JYWolf	19	TongYong_DropList	1		2147483647				t7
+202108	EnemyLv2	引诱蛇妖				1	    一只元神期蛇妖被烟云商会大能引诱到附近，它充满敌意。	EventYaoShouAttack	JYSnake	19	TongYong_DropList	1		2147483647				t7
+202109	EnemyLv2	引诱猪妖				1	    一只元神期猪妖被烟云商会大能引诱到附近，它充满敌意。	EventYaoShouAttack	JYBoar	19	TongYong_DropList	1		2147483647				t7
+202110	EnemyLv2	引诱熊妖				1	    一只元神期熊妖被烟云商会大能引诱到附近，它充满敌意。	EventYaoShouAttack	JYBear	19	TongYong_DropList	1		2147483647				t7
+202111	EnemyLv2	引诱蛙妖				1	    一只元神期蛙妖被烟云商会大能引诱到附近，它充满敌意。	EventYaoShouAttack	JYFrog	19	TongYong_DropList	1		2147483647				t7
+202112	EnemyLv2	引诱龟妖				1	    一只元神期龟妖被烟云商会大能引诱到附近，它充满敌意。	EventYaoShouAttack	JYTurtle	19	TongYong_DropList	1		2147483647				t7
+202113	EnemyLv2	引诱鸡妖				1	    一只元神期鸡妖被烟云商会大能引诱到附近，它充满敌意。	EventYaoShouAttack	JYChicken	19	TongYong_DropList	1		2147483647				t7
+202114	EnemyLv2	引诱猫妖				1	    一只元神期猫妖被烟云商会大能引诱到附近，它充满敌意。	EventYaoShouAttack	JYCat	19	TongYong_DropList	1		2147483647				t7
+202115	EnemyLv2	引诱牛妖				1	    一只元神期牛妖被烟云商会大能引诱到附近，它充满敌意。	EventYaoShouAttack	JYCattle	19	TongYong_DropList	1		2147483647				t7
+202116	EnemyLv2	引诱虎妖				1	    一只元神期虎妖被烟云商会大能引诱到附近，它充满敌意。	EventYaoShouAttack	JYTiger	19	TongYong_DropList	1		2147483647				t7
+202117	EnemyLv2	引诱貊妖				1	    一只元神期貊妖被烟云商会大能引诱到附近，它充满敌意。	EventYaoShouAttack	JYPanda	19	TongYong_DropList	1		2147483647				t7

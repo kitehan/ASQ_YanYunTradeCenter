@@ -1,0 +1,85 @@
+<Magics><List>
+
+	<Magic Name="Magic_sheshenshu" Type="Class">
+		<DisplayName>摄神术</DisplayName>
+		<Desc>太一门前辈根据摄神丹原理创造的神通，能令受术者如服用了摄神丹一般失去意识。</Desc>
+		<Icon>res\Sprs\ui\icon_xixing01</Icon>
+		<!--施展动画-->
+		<Ani>shentong2</Ani>
+		<!--神通的情感类型 None中性 Good好事 Bad坏事 VeryBad非常坏-->
+		<Kind>Good</Kind>
+		<!--灵气消耗-->
+		<CostLing>1</CostLing>
+		<!--消耗寿命-->
+		<CostAge>0</CostAge>		
+		<!--天谴-->
+		<Penalty>0</Penalty>		
+		<!--门派善名-->
+		<ScoreGood>0</ScoreGood>
+		<!--自定义数值参数 支持1到5-->
+		<Param1>1</Param1>	
+		<!--神通的释放模式 None直接释放 Single单体目标 Line划线 Straight划线(不能斜) Rect区域 Ellipse椭圆-->
+		<SelectMode>Single</SelectMode>
+		<!--如果对NPC释放，NPC的反应动画-->
+		<TargetAni>dazuo</TargetAni>		
+		<SelectTarget>Npc</SelectTarget>
+		<!--对应的Lua对象名字 参考Example_Magic-->
+		<ClassName>sheshenshu</ClassName>
+		<!--在门派显示技能-->
+		<ShowInPAttacker>1</ShowInPAttacker>
+		<!--使用神通时的UI提示-->
+		<TargetDesc>请选择一名角色</TargetDesc>
+	</Magic>	
+	
+	<Magic Name="Magic_shengcuishu" Type="Class">
+		<DisplayName>圣淬术</DisplayName>
+		<Desc>太一门前辈根据幽淬之法改良的神通，无需幽珀便能直接将物品幽淬至圣品。</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<Kind>Good</Kind>
+		<CostLing>1</CostLing>
+		<Param1>1</Param1>
+		<SelectMode>Single</SelectMode>
+		<SelectTarget>Item</SelectTarget>
+		<ClassName>shengcuishu</ClassName>
+		<TargetDesc>请选择一件物品。</TargetDesc>
+	</Magic>
+	
+	<Magic Name="Magic_wudaoshu" Type="Class">
+		<DisplayName>悟道术</DisplayName>
+		<Desc>太一门前辈根据天道神丹创造的神通，能令受术者如服用了一颗天道神丹一般获得大量参悟。</Desc>
+		<Icon>res\Sprs\ui\icon_sheshen01</Icon>
+		<Kind>Good</Kind>	
+		<CostLing>150000</CostLing>
+		<Param1>1</Param1>
+		<SelectMode>Single</SelectMode>
+		<SelectTarget>Npc</SelectTarget>
+		<ClassName>wudaoshu</ClassName>
+		<TargetDesc>请选择一名内门角色。</TargetDesc>
+	</Magic>
+	
+	<Magic Name="Magic_huajieshu" Type="Class">
+		<DisplayName>化劫术</DisplayName>
+		<Desc>太一门前辈根据天劫洗炼之理创造的神通，能令法宝立刻接受36重天劫洗炼。</Desc>
+		<Icon>res/Sprs/ui/icon_souhun01</Icon>
+		<Kind>Good</Kind>
+		<CostLing>360000</CostLing>
+		<Param1>1</Param1>
+		<SelectMode>Single</SelectMode>
+		<SelectTarget>Item</SelectTarget>
+		<ClassName>huajieshu</ClassName>
+		<TargetDesc>请选择一件法宝。</TargetDesc>
+	</Magic>
+	
+	<Magic Name="Magic_xianjieshu">
+		<DisplayName>仙界术</DisplayName>
+		<Desc>太一门前辈根据仙界气息创造的神通，能令仙界气息降临。</Desc>
+		<Icon>res\Sprs\ui\icon_quyun01</Icon>
+		<Kind>Good</Kind>
+		<Ani>shentong1</Ani>
+		<Param1>1</Param1><!--施法时间-->
+		<sParam1>ZuShiBiHu</sParam1><!--天气名称，可以用逗号隔开-->
+		<CostLing>1000000</CostLing>
+		<CMD>AbsorbGong_15</CMD>
+	</Magic>
+	
+</List></Magics>

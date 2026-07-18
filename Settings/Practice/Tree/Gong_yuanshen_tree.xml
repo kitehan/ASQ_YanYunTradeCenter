@@ -1,0 +1,851 @@
+﻿<SkillTree><List>
+
+	<Node Name="Gongy_a0" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong3_Esoterica_1</Esoterica>
+		<DisplayName>杀意</DisplayName>
+		<Level>Qi</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gongy_a0_1</li>
+			<li>Gongy_a0_2</li>
+		</Layers>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gongy_a0_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong3_LvUpEsoterica_1</Esoterica>
+		<DisplayName>杀意</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_a0_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong3_LvUpEsoterica_2</Esoterica>
+		<DisplayName>杀意</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_a1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong3_Esoterica_4</Esoterica>
+		<DisplayName>御剑术</DisplayName>
+		<Level>Qi</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gongy_a1_1</li>
+			<li>Gongy_a1_2</li>
+		</Layers>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gongy_a1_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong3_LvUpEsoterica_3</Esoterica>
+		<DisplayName>御剑术</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_a1_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong3_LvUpEsoterica_4</Esoterica>
+		<DisplayName>御剑术</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_a3" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong7_Esoterica_1</Esoterica>
+		<DisplayName>心斋</DisplayName>
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Layers>
+			<li>Gongy_a3_1</li>
+			<li>Gongy_a3_2</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_a3_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong7_LvUpEsoterica_1</Esoterica>
+		<DisplayName>心斋</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_a3_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong7_LvUpEsoterica_2</Esoterica>
+		<DisplayName>心斋</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_a4" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong5_Esoterica_1</Esoterica>
+		<DisplayName>形容之蚀</DisplayName>
+		<Level>Qi</Level>
+		<Index>4</Index>
+		<Layers>
+			<li>Gongy_a4_1</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_a4_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong5_LvUpEsoterica_1</Esoterica>
+		<DisplayName>形容返照</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_a9" Gong="Gong_yuanshen_None">
+		<Esoterica>FightSkillEsoterica_1</Esoterica>
+		<DisplayName>先天罡气</DisplayName>
+		<Level>Qi</Level>
+		<Index>9</Index>
+		<Layers>
+			<li>Gongy_a9_1</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_a9_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong4_LvUpEsoterica_1</Esoterica>
+		<DisplayName>灭绝神光</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_a10" Gong="Gong_yuanshen_None">
+		<Esoterica>Magic_Esoterica_sheshenshu</Esoterica>
+		<DisplayName>摄神术</DisplayName>
+		<Level>Qi</Level>
+		<Index>10</Index>
+		<Layers>
+			<li>Gongy_a10_1</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_a10_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Magic_Esoterica_wudaoshu</Esoterica>
+		<DisplayName>悟道术</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_a11" Gong="Gong_yuanshen_None">
+		<Esoterica>Magic_Esoterica_shengcuishu</Esoterica>
+		<DisplayName>圣淬术</DisplayName>
+		<Level>Qi</Level>
+		<Index>11</Index>
+		<Layers>
+			<li>Gongy_a11_1</li>
+			<li>Gongy_a11_2</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_a11_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Magic_Esoterica_huajieshu</Esoterica>
+		<DisplayName>化劫术</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_a11_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Magic_Esoterica_xianjieshu</Esoterica>
+		<DisplayName>仙界术</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_b0" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong2_Esoterica_6</Esoterica>
+		<DisplayName>上清真气</DisplayName>
+		<Level>Dan1</Level>
+		<Index>0</Index>
+		<Layers>
+			<li>Gongy_b0_1</li>
+			<li>Gongy_b0_2</li>
+			<li>Gongy_b0_3</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_b0_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong2_LvUpEsoterica_5</Esoterica>
+		<DisplayName>上清真气</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_b0_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong9_Esoterica_5</Esoterica>
+		<DisplayName>轮回之心</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_b0_3" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong9_LvUpEsoterica_4</Esoterica>
+		<DisplayName>不昧真灵</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_b1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong10_Esoterica_6</Esoterica>
+		<DisplayName>五内蕴火</DisplayName>
+		<Level>Dan1</Level>
+		<Index>1</Index>
+		<Layers>
+			<li>Gongy_b1_1</li>
+			<li>Gongy_b1_2</li>
+			<li>Gongy_b1_3</li>
+			<li>Gongy_b1_4</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_b1_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong10_LvUpEsoterica_1</Esoterica>
+		<DisplayName>五内蕴火</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_b1_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong10_LvUpEsoterica_2</Esoterica>
+		<DisplayName>五内蕴火</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_b1_3" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong10_Esoterica_11</Esoterica>
+		<DisplayName>天火同人</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_b1_4" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong10_LvUpEsoterica_7</Esoterica>
+		<DisplayName>天火同人</DisplayName>
+		<Level>None</Level>
+	</Node>
+		
+	<Node Name="Gongy_b2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong13_Esoterica_14</Esoterica>
+		<DisplayName>纯阳真罡</DisplayName>
+		<Level>Dan1</Level>
+		<Index>2</Index>
+		<Layers>
+			<li>Gongy_b2_1</li>
+			<li>Gongy_b2_2</li>
+			<li>Gongy_b2_3</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_b2_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong13_Esoterica_16</Esoterica>
+		<DisplayName>周流御气</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_b2_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong13_Esoterica_21</Esoterica>
+		<DisplayName>为剑</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_b2_3" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong13_Esoterica_23</Esoterica>
+		<DisplayName>为道</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_b3" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong11_Esoterica_8</Esoterica>
+		<DisplayName>神行术</DisplayName>
+		<Level>Dan1</Level>
+		<Index>3</Index>
+		<Layers>
+			<li>Gongy_b3_1</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_b3_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong11_LvUpEsoterica_3</Esoterica>
+		<DisplayName>瞬形法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_b4" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong5_Esoterica_2</Esoterica>
+		<DisplayName>五感之蚀</DisplayName>
+		<Level>Dan1</Level>
+		<Index>4</Index>
+		<Layers>
+			<li>Gongy_b4_1</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_b4_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong5_LvUpEsoterica_2</Esoterica>
+		<DisplayName>五感返照</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c0" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong8_Esoterica_12</Esoterica>
+		<DisplayName>劫心咒</DisplayName>
+		<Level>Dan2</Level>
+		<Index>0</Index>
+		<Layers>
+			<li>Gongy_c0_1</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_c0_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong8_LvUpEsoterica_8</Esoterica>
+		<DisplayName>赦心咒</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong1_Esoterica_3</Esoterica>
+		<DisplayName>乘风诀</DisplayName>
+		<Level>Dan2</Level>
+		<Index>1</Index>
+		<Layers>
+			<li>Gongy_c1_1</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_c1_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong1_LvUpEsoterica_4</Esoterica>
+		<DisplayName>同风诀</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong1_Esoterica_5</Esoterica>
+		<DisplayName>奔流诀</DisplayName>
+		<Level>Dan2</Level>
+		<Index>2</Index>
+		<Layers>
+			<li>Gongy_c2_1</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_c2_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong1_LvUpEsoterica_5</Esoterica>
+		<DisplayName>归海诀</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c3" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong13_Esoterica_27</Esoterica>
+		<DisplayName>登霄六步</DisplayName>
+		<Level>Dan2</Level>
+		<Index>3</Index>
+		<Layers>
+			<li>Gongy_c3_1</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_c3_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong13_Esoterica_29</Esoterica>
+		<DisplayName>阴阳化御神遁</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c4" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong7_Esoterica_8</Esoterica>
+		<DisplayName>长生诀</DisplayName>
+		<Level>Dan2</Level>
+		<Index>4</Index>
+		<Layers>
+			<li>Gongy_c4_1</li>
+			<li>Gongy_c4_2</li>
+			<li>Gongy_c4_3</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_c4_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong7_LvUpEsoterica_4</Esoterica>
+		<DisplayName>长生诀</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c4_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong7_Esoterica_10</Esoterica>
+		<DisplayName>斩道见我</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c4_3" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong7_LvUpEsoterica_6</Esoterica>
+		<DisplayName>斩念剑</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c5" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong6_Esoterica_14</Esoterica>
+		<DisplayName>太上内经</DisplayName>
+		<Level>Dan2</Level>
+		<Index>5</Index>
+		<Layers>
+			<li>Gongy_c5_1</li>
+			<li>Gongy_c5_2</li>
+			<li>Gongy_c5_3</li>
+			<li>Gongy_c5_4</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_c5_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong6_LvUpEsoterica_2</Esoterica>
+		<DisplayName>无漏之身</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c5_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong6_Esoterica_3</Esoterica>
+		<DisplayName>道德清净</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c5_3" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong6_LvUpEsoterica_3</Esoterica>
+		<DisplayName>道心</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c5_4" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong6_LvUpEsoterica_8</Esoterica>
+		<DisplayName>秘宝：离地焰光旗</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c6" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong10_Esoterica_3</Esoterica>
+		<DisplayName>始日真诀</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Layers>
+			<li>Gongy_c6_1</li>
+			<li>Gongy_c6_2</li>
+			<li>Gongy_c6_3</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_c6_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong10_LvUpEsoterica_3</Esoterica>
+		<DisplayName>焚日真法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c6_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong10_Esoterica_4</Esoterica>
+		<DisplayName>真火炼身</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c6_3" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong10_LvUpEsoterica_6</Esoterica>
+		<DisplayName>火真之体</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c7" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong11_Esoterica_12</Esoterica>
+		<DisplayName>太阴诀</DisplayName>
+		<Level>Dan2</Level>
+		<Index>7</Index>
+		<Layers>
+			<li>Gongy_c7_1</li>
+			<li>Gongy_c7_2</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_c7_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong11_LvUpEsoterica_6</Esoterica>
+		<DisplayName>少阴诀</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c7_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong11_LvUpEsoterica_7</Esoterica>
+		<DisplayName>玄阴诀</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c8" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong11_Esoterica_3</Esoterica>
+		<DisplayName>太虚元罡</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Layers>
+			<li>Gongy_c8_1</li>
+			<li>Gongy_c8_2</li>
+			<li>Gongy_c8_3</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_c8_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong11_LvUpEsoterica_5</Esoterica>
+		<DisplayName>太虚神盾</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c8_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong5_Esoterica_7</Esoterica>
+		<DisplayName>护体血罡</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c8_3" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong5_LvUpEsoterica_6</Esoterica>
+		<DisplayName>凝血神盾</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c9" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong5_Esoterica_3</Esoterica>
+		<DisplayName>神智之蚀</DisplayName>
+		<Level>Dan2</Level>
+		<Index>9</Index>
+		<Layers>
+			<li>Gongy_c9_1</li>
+			<li>Gongy_c9_2</li>
+			<li>Gongy_c9_3</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_c9_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong5_LvUpEsoterica_3</Esoterica>
+		<DisplayName>神智返照</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c9_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong5_Esoterica_4</Esoterica>
+		<DisplayName>气运之蚀</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c9_3" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong5_LvUpEsoterica_4</Esoterica>
+		<DisplayName>气运返照</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c11" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong4_Esoterica_5</Esoterica>
+		<DisplayName>万法归藏</DisplayName>
+		<Level>Dan2</Level>
+		<Index>11</Index>
+		<Layers>
+			<li>Gongy_c11_1</li>
+			<li>Gongy_c11_2</li>
+			<li>Gongy_c11_3</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_c11_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong4_LvUpEsoterica_3</Esoterica>
+		<DisplayName>万法归藏</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c11_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong4_LvUpEsoterica_4</Esoterica>
+		<DisplayName>万法归藏</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_c11_3" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong4_LvUpEsoterica_5</Esoterica>
+		<DisplayName>万法归藏</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d0" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong3_Esoterica_9</Esoterica>
+		<DisplayName>极剑</DisplayName>
+		<Level>God</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gongy_d0_1</li>
+			<li>Gongy_d0_2</li>
+		</Layers>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gongy_d0_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong3_LvUpEsoterica_6</Esoterica>
+		<DisplayName>极剑</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d0_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong3_LvUpEsoterica_8</Esoterica>
+		<DisplayName>极剑</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong3_Esoterica_10</Esoterica>
+		<DisplayName>我剑</DisplayName>
+		<Level>God</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gongy_d1_1</li>
+			<li>Gongy_d1_2</li>
+		</Layers>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gongy_d1_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong3_LvUpEsoterica_7</Esoterica>
+		<DisplayName>我剑</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d1_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong3_LvUpEsoterica_9</Esoterica>
+		<DisplayName>我剑</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong8_Esoterica_10</Esoterica>
+		<DisplayName>北斗绝式</DisplayName>
+		<Level>God</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gongy_d2_1</li>
+			<li>Gongy_d2_2</li>
+		</Layers>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gongy_d2_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong8_LvUpEsoterica_10</Esoterica>
+		<DisplayName>北斗绝式</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	<Node Name="Gongy_d2_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong8_LvUpEsoterica_11</Esoterica>
+		<DisplayName>北斗绝式</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d3" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong9_Esoterica_12</Esoterica>
+		<DisplayName>天人之体</DisplayName>
+		<Level>God</Level>
+		<Index>3</Index>
+		<Layers>
+			<li>Gongy_d3_1</li>
+			<li>Gongy_d3_2</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_d3_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong9_LvUpEsoterica_6</Esoterica>
+		<DisplayName>天人之体</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d3_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong9_LvUpEsoterica_9</Esoterica>
+		<DisplayName>天人之体</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d4" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong9_Esoterica_14</Esoterica>
+		<DisplayName>修罗之体</DisplayName>
+		<Level>God</Level>
+		<Index>4</Index>
+		<Layers>
+			<li>Gongy_d4_1</li>
+			<li>Gongy_d4_2</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_d4_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong9_LvUpEsoterica_8</Esoterica>
+		<DisplayName>修罗之体</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d4_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong9_LvUpEsoterica_11</Esoterica>
+		<DisplayName>修罗之体</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d5" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong10_Esoterica_8</Esoterica>
+		<DisplayName>心火</DisplayName>
+		<Level>God</Level>
+		<Index>5</Index>
+		<Layers>
+			<li>Gongy_d5_1</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_d5_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong10_LvUpEsoterica_5</Esoterica>
+		<DisplayName>心炎</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d6" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong6_Esoterica_9</Esoterica>
+		<DisplayName>速炼法</DisplayName>
+		<Level>God</Level>
+		<Index>6</Index>
+		<Layers>
+			<li>Gongy_d6_1</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_d6_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong6_LvUpEsoterica_4</Esoterica>
+		<DisplayName>炼身法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d7" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong6_Esoterica_10</Esoterica>
+		<DisplayName>精练法</DisplayName>
+		<Level>God</Level>
+		<Index>7</Index>
+		<Layers>
+			<li>Gongy_d7_1</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_d7_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong6_LvUpEsoterica_5</Esoterica>
+		<DisplayName>炼身法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d8" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong6_Esoterica_11</Esoterica>
+		<DisplayName>神炼法</DisplayName>
+		<Level>God</Level>
+		<Index>8</Index>
+		<Layers>
+			<li>Gongy_d8_1</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_d8_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong6_LvUpEsoterica_6</Esoterica>
+		<DisplayName>炼身法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d9" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong13_Esoterica_18</Esoterica>
+		<DisplayName>虚极剑</DisplayName>
+		<Level>God</Level>
+		<Index>9</Index>
+		<Layers>
+			<li>Gongy_d9_1</li>
+			<li>Gongy_d9_2</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_d9_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong13_Esoterica_20</Esoterica>
+		<DisplayName>归道剑</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	<Node Name="Gongy_d9_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong13_Esoterica_Fabao1</Esoterica>
+		<DisplayName>真武剑册</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d10" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong13_Esoterica_24</Esoterica>
+		<DisplayName>观复诀</DisplayName>
+		<Level>God</Level>
+		<Index>10</Index>
+		<Layers>
+			<li>Gongy_d10_1</li>
+			<li>Gongy_d10_2</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_d10_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong13_Esoterica_26</Esoterica>
+		<DisplayName>无离真法</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d10_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong13_Esoterica_Dan</Esoterica>
+		<DisplayName>北斗真丹</DisplayName>
+		<Level>None</Level>
+	</Node>	
+	
+	<Node Name="Gongy_d11" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong5_Esoterica_12</Esoterica>
+		<DisplayName>偷天</DisplayName>
+		<Level>God</Level>
+		<Index>11</Index>
+		<Layers>
+			<li>Gongy_d11_1</li>
+			<li>Gongy_d11_2</li>
+		</Layers>
+	</Node>
+	
+	<Node Name="Gongy_d11_1" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong5_LvUpEsoterica_7</Esoterica>
+		<DisplayName>换日</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gongy_d11_2" Gong="Gong_yuanshen_None">
+		<Esoterica>Gong5_LvUpEsoterica_8</Esoterica>
+		<DisplayName>秘宝：偷天七绝针</DisplayName>
+		<Level>None</Level>
+	</Node>	
+	
+	<Node Name="Gongy_1_e4" Gong="Gong_yuanshen_None">
+		<Esoterica>God2_Dan</Esoterica>
+		<DisplayName>天道神丹</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gongy_1_e8" Gong="Gong_yuanshen_None">
+		<Esoterica>God2_Fabao</Esoterica>
+		<DisplayName>天道神器</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+</List></SkillTree> 

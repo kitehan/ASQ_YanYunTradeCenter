@@ -1,0 +1,63 @@
+﻿<Esotericas><List>
+	
+	<Esoterica Name="Magic_Esoterica_sheshenshu">
+		<DisplayName>摄神术</DisplayName>
+		<Icon>res/Sprs/ui/icon_zhoutian01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>1</Difficulty>
+		<GLevel>Qi</GLevel>
+		<EffectDesc>[size=10][color=#D06508]习得神通：摄神术\n 太一门前辈根据摄神丹原理创造的神通，能令受术者如服用了摄神丹一般失去意识。[/color][/size]</EffectDesc>
+		<Magics>
+			<li>Magic_sheshenshu</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="Magic_Esoterica_shengcuishu">
+		<DisplayName>圣淬术</DisplayName>
+		<Icon>res/Sprs/ui/icon_souhun01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>1</Difficulty>
+		<GLevel>Qi</GLevel>
+		<EffectDesc>[size=10][color=#D06508]习得神通：圣淬术\n 太一门前辈根据幽淬之法改良的神通，无需幽珀便能直接将物品幽淬至圣品。[/color][/size]</EffectDesc>
+		<Magics>
+			<li>Magic_shengcuishu</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="Magic_Esoterica_wudaoshu">
+		<DisplayName>悟道术</DisplayName>
+		<Icon>res\Sprs\ui\icon_sheshen01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>1</Difficulty>
+		<GLevel>God</GLevel>
+		<EffectDesc>[size=10][color=#D06508]习得神通：悟道术\n 太一门前辈根据天道神丹创造的神通，能令受术者如服用了一颗天道神丹一般获得大量参悟。[/color][/size]</EffectDesc>
+		<Magics>
+			<li>Magic_wudaoshu</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="Magic_Esoterica_huajieshu">
+		<DisplayName>化劫术</DisplayName>
+		<Icon>res/Sprs/ui/icon_souhun01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>1</Difficulty>
+		<GLevel>God</GLevel>
+		<EffectDesc>[size=10][color=#D06508]习得神通：化劫术\n 太一门前辈根据天劫洗炼之理创造的神通，能令法宝立刻接受36重天劫洗炼。[/color][/size]</EffectDesc>
+		<Magics>
+			<li>Magic_huajieshu</li>
+		</Magics>
+	</Esoterica>
+	
+	<Esoterica Name="Magic_Esoterica_xianjieshu">
+		<DisplayName>仙界术</DisplayName>
+		<Icon>res/Sprs/ui/icon_souhun01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>1</Difficulty>
+		<GLevel>God</GLevel>
+		<EffectDesc>[size=10][color=#D06508]习得神通：仙界术\n 太一门前辈根据仙界气息创造的神通，能令仙界气息降临。[/color][/size]</EffectDesc>
+		<Magics>
+			<li>Magic_xianjieshu</li>
+		</Magics>
+	</Esoterica>
+	
+</List></Esotericas>

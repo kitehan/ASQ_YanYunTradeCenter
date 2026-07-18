@@ -1,0 +1,100 @@
+<ModifierDefs><List>
+
+	<Modifier Name="Modifier_Item_sphouyi1" Type="Normal">
+		<DisplayName>镇岳极光衣</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="IntelligenceSkillEXPConstant" AddP="0.3354"/>
+			<li Name="ComfyTMin" AddP="0.2566"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Modifier_Item_sphouku1" Type="Normal">
+		<DisplayName>苍龙荡魔裤</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="PlantWorkSpeed" AddP="0.2905"/>
+			<li Name="BaseWorkSpeed" AddP="0.3020"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Modifier_Item_sphouyi2" Type="Normal">
+		<DisplayName>万里霓光衣</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="TailoringSpeed" AddP="0.3386"/>
+			<li Name="MiningSpeed" AddP="0.3517"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Modifier_Item_sphouku2" Type="Normal">
+		<DisplayName>己土屠神裤</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="PainTolerance" AddP="0.2242"/>
+			<li Name="MoveSpeed" AddP="0.3537"/>
+		</Properties>
+	</Modifier>
+	
+    <Modifier Name="qianlongdanmod">
+		<DisplayName>潜龙丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Skills>
+			<li Name="Fight" Level="999" LevelOver="0" Type="1" />
+			<li Name="Qi" Level="999" LevelOver="0" Type="1" />
+			<li Name="SocialContact" Level="999" LevelOver="0" Type="1" />
+			<li Name="Medicine" Level="999" LevelOver="0" Type="1" />
+			<li Name="Cooking" Level="999" LevelOver="0" Type="1" />
+			<li Name="Building" Level="999" LevelOver="0" Type="1" />
+			<li Name="Farming" Level="999" LevelOver="0" Type="1" />
+			<li Name="Mining" Level="999" LevelOver="0" Type="1" />
+			<li Name="Art" Level="999" LevelOver="0" Type="1" />
+			<li Name="Manual" Level="999" LevelOver="0" Type="1" />
+			<li Name="DouFa" Level="999" LevelOver="0" Type="1" />
+			<li Name="DanQi" Level="999" LevelOver="0" Type="1" />
+			<li Name="Fabao" Level="999" LevelOver="0" Type="1" />
+			<li Name="FightSkill" Level="999" LevelOver="0" Type="1" />
+			<li Name="Barrier" Level="999" LevelOver="0" Type="1" />
+			<li Name="Zhen" Level="999" LevelOver="0" Type="1" />
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_SneakValue" AddP="0" AddV="100000" BAddP="0" BAddV="0" Type="1" />
+			<li Name="PotentialOfBasepracticeAddValue" AddP="0" AddV="50000" BAddP="0" BAddV="0" Type="1" />
+			<li Name="FabaoMake_SpeedAddV" AddV="100"/>
+		</Properties>
+    </Modifier>
+
+	<Modifier Name="Modifier_Item_wanjielingjing" Type="Normal">
+		<DisplayName>万界灵晶</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Sync>1</Sync>
+		<Display>0</Display>
+		<Properties>
+			<li Name="WorldMapFlySpeedAddP" AddV="10000"/>
+			<li Name="ExperienceFindSpeedAddV" AddV="10000"/>
+		</Properties>
+	</Modifier>
+	
+</List></ModifierDefs>
